@@ -350,6 +350,36 @@ p{margin:0}
 .step h4{font-size:1.1875rem;margin-bottom:.55rem}
 .step p{font-size:.875rem;color:var(--ink-2);line-height:1.55}
 
+/* ================= CERTIFICATIONS ================= */
+.certs{
+  display:grid;grid-template-columns:repeat(2,1fr);
+  gap:0 clamp(1.5rem,4vw,3.5rem);border-top:1px solid var(--line);
+}
+@media (max-width:760px){.certs{grid-template-columns:1fr}}
+.cert{
+  display:flex;align-items:flex-start;gap:1rem;
+  padding:1.15rem 0;border-bottom:1px solid var(--line-2);
+}
+.cert-seal{
+  flex:0 0 auto;width:30px;height:30px;border-radius:50%;
+  border:1px solid var(--line);display:grid;place-items:center;color:var(--accent);
+  transition:background .25s,color .25s,border-color .25s;
+}
+.cert:hover .cert-seal{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
+.cert-seal svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.cert h3{font-size:1rem;line-height:1.35;letter-spacing:-.01em;margin-bottom:.3rem}
+.cert-meta{font-size:.75rem;font-weight:500;letter-spacing:.02em;color:var(--ink-2)}
+.edu{
+  display:flex;align-items:baseline;gap:1rem 1.5rem;flex-wrap:wrap;
+  margin-top:2rem;padding-top:1.5rem;border-top:1px solid var(--line);
+}
+.edu h3{font-size:1.1875rem;letter-spacing:-.02em}
+.edu span{font-size:.875rem;color:var(--ink-2)}
+.edu .edu-tag{
+  font-size:.6875rem;font-weight:600;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--ink-2);margin-right:auto;
+}
+
 /* ================= FAQ ================= */
 .faq{border-top:1px solid var(--line)}
 .q{border-bottom:1px solid var(--line)}
@@ -502,6 +532,7 @@ html{scroll-behavior:smooth;scroll-padding-top:100px}
       <a href="#skills">Skills</a>
       <a href="#work">Work</a>
       <a href="#process">Process</a>
+      <a href="#certifications">Certifications</a>
       <a href="#faq">FAQ</a>
     </nav>
     <a class="nav-cta" href="#contact">Get in touch</a>
@@ -528,7 +559,7 @@ html{scroll-behavior:smooth;scroll-padding-top:100px}
           <span class="w"><i style="--wd:360ms">UX</i></span>
           <span class="w"><i style="--wd:430ms">&amp;</i></span>
           <span class="w"><i style="--wd:500ms">Visual</i></span>
-          <span class="w"><i style="--wd:570ms">Design</i></span>
+          <span class="w"><i style="--wd:570ms">Designer</i></span>
         </span>
       </h1>
       <p class="hero-sub rv" style="--d:680ms">I work across product, UX and visual design — <b>research first, screens second</b>. From a supply chain that ran on phone calls, to a 10,000-product store, to campaign artwork for one of Iran's largest retailers.</p>
@@ -713,6 +744,54 @@ html{scroll-behavior:smooth;scroll-padding-top:100px}
     <div class="step"><b>02</b><h4>Structure</h4><p>Affinity mapping into insights, then IA and flows — including the conditional branches everyone forgets.</p></div>
     <div class="step"><b>03</b><h4>Design</h4><p>Wireframes to a component system, so the tenth screen costs less than the first.</p></div>
     <div class="step"><b>04</b><h4>Test</h4><p>A real usability test with real numbers — and a readout of what changed because of it.</p></div>
+  </div>
+</section>
+
+<!-- ===================== CERTIFICATIONS ===================== -->
+<section id="certifications" class="sec wrap">
+  <div class="sec-top">
+    <div class="rv">
+      <span class="lbl">Licenses &amp; certifications</span>
+      <h2 style="margin-top:1.15rem">Formal training behind the method.</h2>
+    </div>
+    <p class="rv" style="--d:100ms">Seven certifications from the Interaction Design Foundation, completed in 2024 — usability, design thinking, perception and research practice.</p>
+  </div>
+
+  <div class="certs rv">
+    <article class="cert">
+      <span class="cert-seal" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>
+      <div><h3>The Practical Guide to Usability</h3><span class="cert-meta">Interaction Design Foundation · 2024</span></div>
+    </article>
+    <article class="cert">
+      <span class="cert-seal" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>
+      <div><h3>Design Thinking: The Ultimate Guide</h3><span class="cert-meta">Interaction Design Foundation · 2024</span></div>
+    </article>
+    <article class="cert">
+      <span class="cert-seal" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>
+      <div><h3>Design for a Better World with Don Norman</h3><span class="cert-meta">Interaction Design Foundation · 2024</span></div>
+    </article>
+    <article class="cert">
+      <span class="cert-seal" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>
+      <div><h3>Gestalt Psychology and Web Design: The Ultimate Guide</h3><span class="cert-meta">Interaction Design Foundation · 2024</span></div>
+    </article>
+    <article class="cert">
+      <span class="cert-seal" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>
+      <div><h3>Perception and Memory in HCI and UX</h3><span class="cert-meta">Interaction Design Foundation · 2024</span></div>
+    </article>
+    <article class="cert">
+      <span class="cert-seal" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>
+      <div><h3>User Experience: The Beginner's Guide</h3><span class="cert-meta">Interaction Design Foundation · 2024</span></div>
+    </article>
+    <article class="cert">
+      <span class="cert-seal" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>
+      <div><h3>How to Create a UX Portfolio</h3><span class="cert-meta">Interaction Design Foundation · 2024</span></div>
+    </article>
+  </div>
+
+  <div class="edu rv">
+    <span class="edu-tag">Education</span>
+    <h3>Bachelor of Economics</h3>
+    <span>Shahid Beheshti University, Tehran · 2015</span>
   </div>
 </section>
 
