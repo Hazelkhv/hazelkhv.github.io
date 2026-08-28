@@ -1,5 +1,7 @@
 # Hazel Khosravi — Portfolio
 
+**Live: [hazelkhv.github.io](https://hazelkhv.github.io)**
+
 A single-page portfolio for Hazel Khosravi, product / UX / visual designer (Adelaide, SA).
 Skills, three case studies with the research behind them, process, and contact.
 
@@ -24,6 +26,20 @@ node build.js
 
 No dependencies. Every image is inlined as a base64 data URI, so each output is one
 self-contained file — the only external request is the Google Fonts stylesheet.
+
+## Deploy
+
+GitHub Pages serves `index.html` from `main`. The repository is named
+`hazelkhv.github.io`, which is what puts the site at the root of the domain rather
+than under a project path. Pushing to `main` republishes it a minute or two later.
+
+```bash
+node build.js
+git add -A && git commit -m "..." && git push
+```
+
+Rebuild before committing — `index.html` and `artifact.html` are generated, so editing
+`src/page.html` alone does not change what is deployed.
 
 ## Notes
 
