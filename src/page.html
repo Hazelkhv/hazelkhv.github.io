@@ -185,12 +185,19 @@ p{margin:0}
 .arch img{
   display:block;width:100%;aspect-ratio:4/5;object-fit:cover;
 }
+/* A capsule tilted off the arch, like the floating labels in the reference —
+   one line, not a stacked block. */
 .face-badge{
-  position:absolute;bottom:-16px;left:-16px;background:var(--accent);color:var(--on-accent);
-  border-radius:14px;padding:.7rem .9rem;line-height:1.25;box-shadow:var(--shadow);
+  position:absolute;top:52%;left:-28px;
+  display:inline-flex;align-items:baseline;gap:.42rem;white-space:nowrap;
+  background:var(--bg-2);color:var(--ink);
+  border:1px solid var(--line);border-radius:999px;
+  padding:.5rem 1rem;line-height:1;
+  box-shadow:0 14px 28px -12px rgba(0,0,0,.38);
+  transform:rotate(-7deg);
 }
-.face-badge b{display:block;font-family:var(--disp);font-size:1.35rem;letter-spacing:-.03em}
-.face-badge span{font-size:.6875rem;font-weight:600;letter-spacing:.06em;opacity:.85}
+.face-badge b{font-family:var(--disp);font-size:.95rem;font-weight:800;letter-spacing:-.02em}
+.face-badge span{font-size:.8125rem;font-weight:500;color:var(--ink-2)}
 
 /* ================= MARQUEE ================= */
 .mq{
@@ -570,7 +577,7 @@ html{scroll-behavior:smooth;scroll-padding-top:100px}
     </div>
     <div class="hero-face rv" style="--d:500ms">
       <div class="arch"><img src="__IMG_PORTRAIT__" alt="Hazel Khosravi"></div>
-      <div class="face-badge"><b>6+</b><span>YEARS IN DESIGN</span></div>
+      <div class="face-badge"><b>6+</b><span>Years in design</span></div>
     </div>
   </div>
 </section>
