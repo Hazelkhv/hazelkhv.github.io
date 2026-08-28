@@ -170,38 +170,18 @@ p{margin:0}
 .btn--ghost:hover{background:transparent;color:var(--accent);border-color:var(--accent)}
 .btn svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;transition:transform .25s}
 .btn:hover svg{transform:translate(3px,-3px)}
-.hero-face{position:relative;width:clamp(190px,23vw,286px);flex:0 0 auto}
+.hero-face{position:relative;width:clamp(180px,22vw,268px);flex:0 0 auto}
 @media (max-width:900px){.hero-face{display:none}}
-
-/* An arch: fully round at the top, squared at the base. The accent sits in the
-   padding so it reads as a coloured frame around the portrait rather than a
-   background the subject has to be cut out from. */
-.arch{
-  position:relative;
-  border-radius:999px 999px 22px 22px;
-  padding:clamp(8px,1vw,12px);
-  background:linear-gradient(168deg,var(--accent) 0%,color-mix(in srgb,var(--accent) 62%,var(--bg)) 100%);
-  box-shadow:0 26px 52px -22px color-mix(in srgb,var(--accent) 55%,transparent),0 8px 20px -10px rgba(0,0,0,.25);
+.hero-face img{
+  width:100%;border-radius:var(--r);filter:grayscale(1) contrast(1.06);
+  border:1px solid var(--line);box-shadow:var(--shadow);
 }
-.arch img{
-  display:block;width:100%;aspect-ratio:4/5;
-  object-fit:cover;object-position:50% 14%;
-  border-radius:999px 999px 14px 14px;
-  background:var(--bg-2);
-}
-/* A capsule tilted off the arch, like the floating labels in the reference —
-   one line, not a stacked block. */
 .face-badge{
-  position:absolute;top:52%;left:-28px;
-  display:inline-flex;align-items:baseline;gap:.42rem;white-space:nowrap;
-  background:var(--bg-2);color:var(--ink);
-  border:1px solid var(--line);border-radius:999px;
-  padding:.5rem 1rem;line-height:1;
-  box-shadow:0 14px 28px -12px rgba(0,0,0,.38);
-  transform:rotate(-7deg);
+  position:absolute;bottom:-16px;left:-16px;background:var(--accent);color:var(--on-accent);
+  border-radius:14px;padding:.7rem .9rem;line-height:1.25;box-shadow:var(--shadow);
 }
-.face-badge b{font-family:var(--disp);font-size:.95rem;font-weight:800;letter-spacing:-.02em}
-.face-badge span{font-size:.8125rem;font-weight:500;color:var(--ink-2)}
+.face-badge b{display:block;font-family:var(--disp);font-size:1.35rem;letter-spacing:-.03em}
+.face-badge span{font-size:.6875rem;font-weight:600;letter-spacing:.06em;opacity:.85}
 
 /* ================= MARQUEE ================= */
 .mq{
@@ -580,8 +560,8 @@ html{scroll-behavior:smooth;scroll-padding-top:100px}
       </div>
     </div>
     <div class="hero-face rv" style="--d:500ms">
-      <div class="arch"><img src="__IMG_PORTRAIT__" alt="Hazel Khosravi"></div>
-      <div class="face-badge"><b>6+</b><span>Years in design</span></div>
+      <img src="__IMG_PORTRAIT__" alt="Hazel Khosravi">
+      <div class="face-badge"><b>6+</b><span>YEARS IN DESIGN</span></div>
     </div>
   </div>
 </section>
