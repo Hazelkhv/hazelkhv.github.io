@@ -173,17 +173,21 @@ p{margin:0}
 .hero-face{position:relative;width:clamp(190px,23vw,286px);flex:0 0 auto}
 @media (max-width:900px){.hero-face{display:none}}
 
-/* An arch: fully round at the top, squared at the base. The gradient and the
-   cut-out subject are baked into the image itself (see compose step), so this
-   only has to shape and clip it. */
+/* An arch: fully round at the top, squared at the base. The accent sits in the
+   padding so it reads as a coloured frame around the portrait rather than a
+   background the subject has to be cut out from. */
 .arch{
   position:relative;
   border-radius:999px 999px 22px 22px;
-  overflow:hidden;
+  padding:clamp(8px,1vw,12px);
+  background:linear-gradient(168deg,var(--accent) 0%,color-mix(in srgb,var(--accent) 62%,var(--bg)) 100%);
   box-shadow:0 26px 52px -22px color-mix(in srgb,var(--accent) 55%,transparent),0 8px 20px -10px rgba(0,0,0,.25);
 }
 .arch img{
-  display:block;width:100%;aspect-ratio:4/5;object-fit:cover;
+  display:block;width:100%;aspect-ratio:4/5;
+  object-fit:cover;object-position:50% 14%;
+  border-radius:999px 999px 14px 14px;
+  background:var(--bg-2);
 }
 /* A capsule tilted off the arch, like the floating labels in the reference —
    one line, not a stacked block. */
