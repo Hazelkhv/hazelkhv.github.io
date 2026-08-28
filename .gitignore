@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# Keep personal documents out of the repo — the resume PDF carries a phone number.
+*.pdf
