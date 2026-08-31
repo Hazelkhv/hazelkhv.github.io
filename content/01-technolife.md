@@ -9,28 +9,31 @@
 | | |
 |---|---|
 | **Subject** | Technolife — consumer electronics retailer, Iran |
-| **Project type** | **Self-directed redesign — concept. Not commissioned by Technolife.** |
+| **Project type** | **Client work — commissioned by Technolife** |
+| **Employment** | Web & Interaction Designer at Technolife, March–July 2019 |
 | **Role** | Everything — research, IA, wireframes, design system, usability testing |
 | **Existing site** | technolife.ir |
 | **Deliverables** | Research report · affinity analysis · persona · IA · hi-fi wireframes · design system · usability test report |
 
 ---
 
-> **Technolife did not commission this work.** I chose a live retailer with a real
-> catalogue because a redesign is only worth doing against real constraints — real product
-> volume, real content, real competitors. Everything below is my own research, run for this
-> project: six interviews, a 92-person survey, and a usability test with nine participants
-> on my own prototype.
+> I worked at Technolife as their Web & Interaction Designer, March–July 2019. This redesign
+> was work they assigned me, not a concept I built on my own. Six interviews, a 92-person
+> survey, and a usability test with nine participants on my own prototype are the research
+> behind it.
+>
+> TODO(hazel): confirm whether this research ran during the 2019 engagement or was added
+> later — the page must not imply the wrong one.
 
-## Why this one
+## The brief
 
-Most redesign concepts pick a beautiful product and restyle it. That proves taste and
-nothing else.
+Technolife brought me on to redesign their catalogue as part of the design team. The brief:
+make the site easier to shop, not just easier to browse.
 
-I picked Technolife because it has the problem that is actually hard: thousands of products,
-a content library sitting alongside the shop, and buyers who arrive knowing what they need
-but not what it is called. You cannot solve that with a new colour palette. You have to
-change how the catalogue is structured and how a decision gets made inside it.
+Technolife has the problem that is actually hard: thousands of products, a content library
+sitting alongside the shop, and buyers who arrive knowing what they need but not what it is
+called. You cannot solve that with a new colour palette. You have to change how the catalogue
+is structured and how a decision gets made inside it.
 
 ## One sentence
 
@@ -174,8 +177,10 @@ here.
 
 ## What the redesign proposes
 
-This is a concept, so there is no launch metric to report. What there is, is a set of
-specific proposals and the evidence behind each one.
+TODO(hazel): confirm whether the redesign launched, and whether the 50% click-reduction /
+30% conversion / 15% organic-traffic figures from my CV are verified results that belong
+here. Until that's resolved, what follows is the set of specific proposals and the evidence
+behind each one — not a launch report.
 
 | Proposal | Driven by |
 |---|---|
@@ -190,31 +195,20 @@ than restyle a screenshot, and that I test my own work and publish what the test
 
 ---
 
-## What I would do with a real brief
-
-Three things this project could not do, and would need to:
-
-- **Access to their analytics.** Where people actually drop off would sharpen every
-  assumption here into a measurement.
-- **A second round of testing** on the revised prototype, to show movement between rounds
-  rather than a single reading.
-- **Technical constraints.** A redesign that ignores the platform it has to live on is a
-  drawing, not a design.
-
-## What I would tell a retailer with this problem
+## What the job taught me
 
 **Comparison is not a feature, it is the whole decision.** In a catalogue this size, people
 do not struggle to find products — they struggle to choose between the four they have
-already found. Most retailers spend their design budget on search and almost none on the
-moment after it.
+already found. Technolife's design budget went on search and almost none on the moment
+after it.
 
 **Reviews outrank specifications.** Every participant read what other buyers said before
-they read the specification table. Putting reviews below the fold treats the most persuasive
+they read the specification table. Reviews sat below the fold, treating the most persuasive
 content on the page as an afterthought.
 
 **A design system is not a luxury at this scale.** Ten thousand products cannot be designed
-screen by screen. The parts have to hold up on their own, because nobody will ever review
-them all.
+screen by screen. The parts have to hold up on their own, because nobody on the team will
+ever review them all.
 
 ---
 
@@ -227,5 +221,5 @@ them all.
 - The design system sheet
 - Prototype screens for the three tested tasks
 
-All of these are your own artefacts, so nothing here needs permission — the only rule is
-that the header keeps saying this was not commissioned by Technolife.
+These are artefacts from the Technolife job — the header should say this was commissioned
+client work, not a self-directed concept.

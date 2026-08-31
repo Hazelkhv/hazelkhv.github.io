@@ -1,6 +1,8 @@
 # RunX — the app that doesn't send you back to week one
 
-**Case study · End-to-end UX / UI · Concept, team project**
+**Case study · End-to-end UX / UI · Team project, [PROGRAMME NAME, YEAR]**
+
+<!-- TODO(hazel): supply the exact programme name and year. -->
 
 ---
 
@@ -9,7 +11,7 @@
 | | |
 |---|---|
 | **Product** | RunX — responsive marketing site + iOS / Android training app |
-| **Project type** | **Concept project · team of five designers** |
+| **Project type** | **Team project · five designers · [PROGRAMME NAME, YEAR]** |
 | **Year** | 2025 |
 | **My role** | User research · information architecture · wireframes for the Plan and Progress flows |
 | **Team** | Five designers — Leyla Gharegolchian, Maryam Daryan, Hazel Khosravi, Faezeh Khazaei, Maryam Esmaeilzadeh |
@@ -17,13 +19,13 @@
 | **Tools** | Figma · FigJam · Google Forms · Miro |
 | **Deliverables** | Research report · competitive analysis · personas and journey map · IA · task and user flows · wireframes · hi-fi prototype |
 
-> **This is a concept project.** RunX was not commissioned and has not shipped. It is
-> published for the research and the reasoning, not for a commercial result.
+> **This was a professional team project, built as part of [PROGRAMME NAME, YEAR].** RunX
+> was not commissioned and has not shipped. It is published for the research and the
+> reasoning, not for a commercial result.
 >
-> **It was also a team project.** Five designers worked on it over six weeks. The work
-> described on this page as mine is user research, information architecture, and the
-> wireframes for the Plan and Progress flows. Everything else was shared or owned by
-> someone else on the team.
+> **Five designers worked on it over six weeks.** The work described on this page as mine
+> is user research, information architecture, and the wireframes for the Plan and Progress
+> flows. Everything else was shared or owned by someone else on the team.
 
 ---
 

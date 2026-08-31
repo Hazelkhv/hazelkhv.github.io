@@ -58,7 +58,8 @@ Rebuild before committing — `index.html` and `artifact.html` are generated, so
 Each project is labelled for what it actually is, and this should stay true if the
 content is edited:
 
-- **Technolife** — self-directed concept. Not commissioned by Technolife.
+- **Technolife** — commissioned client work, done as Technolife's Web & Interaction
+  Designer (March–July 2019). Not self-directed.
 - **Samatim** — shipped, live on Google Play.
-- **RunX** — concept, made by a team of five. Hazel's part was research, information
-  architecture, and the Plan / Progress wireframes.
+- **RunX** — a professional team project of five, built as part of [PROGRAMME NAME, YEAR].
+  Hazel's part was research, information architecture, and the Plan / Progress wireframes.
