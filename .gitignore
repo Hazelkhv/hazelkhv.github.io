@@ -8,3 +8,10 @@ desktop.ini
 
 # Keep personal documents out of the repo — the resume PDF carries a phone number.
 *.pdf
+
+.vercel
+
+# Claude Code tooling (installed skills, local config) — not site content
+.agents/
+.claude/
+skills-lock.json
