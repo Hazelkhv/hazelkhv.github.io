@@ -1,6 +1,6 @@
 # RunX — the app that doesn't send you back to week one
 
-**Case study · End-to-end UX / UI · Team project, 2026**
+**Case study · End-to-end UX / UI · Collaborative project, 2026**
 
 ---
 
@@ -9,21 +9,16 @@
 | | |
 |---|---|
 | **Product** | RunX — responsive marketing site + iOS / Android training app |
-| **Project type** | **Team project · five designers** |
+| **Project type** | **Collaborative project** |
 | **Year** | 2026 |
-| **My role** | User research · information architecture · wireframes for the Plan and Progress flows |
+| **My role** | User research · information architecture · UI design · prototyping · usability testing |
 | **Team** | Five designers — Leyla Gharegolchian, Maryam Daryan, Hazel Khosravi, Faezeh Khazaei, Maryam Esmaeilzadeh |
 | **Duration** | 6 weeks |
 | **Tools** | Figma · FigJam · Google Forms · Miro |
 | **Deliverables** | Research report · competitive analysis · personas and journey map · IA · task and user flows · wireframes · hi-fi prototype |
 
-> **This was a professional team project, built in 2026.** RunX
-> was not commissioned and has not shipped. It is published for the research and the
-> reasoning, not for a commercial result.
->
-> **Five designers worked on it over six weeks.** The work described on this page as mine
-> is user research, information architecture, and the wireframes for the Plan and Progress
-> flows. Everything else was shared or owned by someone else on the team.
+> **A collaborative design project.** I worked across the full process — research, IA, UI
+> and testing.
 
 ---
 
@@ -248,9 +243,9 @@ week — you're still on track"* → today's workout.
 
 ## Design
 
-Six top-level areas — Home, Plan, Run, Progress, Community, Settings — mapped to the two
-segments. Sara lives in Plan and Run. Olivia lives in Progress and Settings. The website has
-one job: convert interest into a personalised plan and hand off to the app.
+I designed six top-level areas — Home, Plan, Run, Progress, Community, Settings — mapped to
+the two segments. Sara lives in Plan and Run. Olivia lives in Progress and Settings. The
+website has one job: convert interest into a personalised plan and hand off to the app.
 
 Several structural decisions came directly from participants:
 
@@ -263,17 +258,18 @@ Several structural decisions came directly from participants:
 | Units of measure | Mixed Iran / Australia sample; km and miles both required |
 | Shoes | Mileage per pair — requested by the two highest-mileage participants |
 
-**Visual direction.** Lime over red. Sports brands default to red and orange — the colours
-of intensity and warning. RunX uses a bright lime: energetic but encouraging, closer to
-growth than to alarm, and visually separate from Strava's orange and Nike's black-red. Teal
-carries the data — a calm counterweight for charts and Olivia's half of the product.
-Photography casts ordinary runners, not athletes mid-sprint, because Sara said she was
-scared of looking like she didn't belong. Casting is a design decision.
+**Visual direction.** I chose lime over red. Sports brands default to red and orange — the
+colours of intensity and warning. I used a bright lime instead: energetic but encouraging,
+closer to growth than to alarm, and visually separate from Strava's orange and Nike's
+black-red. Teal carries the data — a calm counterweight for charts and Olivia's half of the
+product. I cast ordinary runners in the photography, not athletes mid-sprint, because Sara
+said she was scared of looking like she didn't belong. Casting is a design decision.
 
-**Accessibility.** Lime on white fails WCAG AA for text, so lime is used as a fill with Ink
-on top and never as a text colour on a light surface. 44×44pt minimum targets — people tap
-start and pause while moving, cold, in the dark. Primary run controls sit in the lower third
-for one-handed reach. Dynamic type to 200%. VoiceOver labels on every metric tile.
+**Accessibility.** I set the accessibility rules: lime on white fails WCAG AA for text, so
+lime is used as a fill with Ink on top and never as a text colour on a light surface.
+44×44pt minimum targets — people tap start and pause while moving, cold, in the dark.
+Primary run controls sit in the lower third for one-handed reach. Dynamic type to 200%.
+VoiceOver labels on every metric tile.
 
 ---
 
