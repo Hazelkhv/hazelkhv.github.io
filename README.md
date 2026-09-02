@@ -61,5 +61,5 @@ content is edited:
 - **Technolife** — commissioned client work, done as Technolife's Web & Interaction
   Designer (March–July 2019). Not self-directed.
 - **Samatim** — shipped, live on Google Play.
-- **RunX** — a professional team project of five, built as part of [PROGRAMME NAME, YEAR].
-  Hazel's part was research, information architecture, and the Plan / Progress wireframes.
+- **RunX** — a professional team project of five, built in 2026. Hazel's part was
+  research, information architecture, and the Plan / Progress wireframes.

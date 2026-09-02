@@ -1,8 +1,6 @@
 # RunX — the app that doesn't send you back to week one
 
-**Case study · End-to-end UX / UI · Team project, [PROGRAMME NAME, YEAR]**
-
-<!-- TODO(hazel): supply the exact programme name and year. -->
+**Case study · End-to-end UX / UI · Team project, 2026**
 
 ---
 
@@ -11,15 +9,15 @@
 | | |
 |---|---|
 | **Product** | RunX — responsive marketing site + iOS / Android training app |
-| **Project type** | **Team project · five designers · [PROGRAMME NAME, YEAR]** |
-| **Year** | 2025 |
+| **Project type** | **Team project · five designers** |
+| **Year** | 2026 |
 | **My role** | User research · information architecture · wireframes for the Plan and Progress flows |
 | **Team** | Five designers — Leyla Gharegolchian, Maryam Daryan, Hazel Khosravi, Faezeh Khazaei, Maryam Esmaeilzadeh |
 | **Duration** | 6 weeks |
 | **Tools** | Figma · FigJam · Google Forms · Miro |
 | **Deliverables** | Research report · competitive analysis · personas and journey map · IA · task and user flows · wireframes · hi-fi prototype |
 
-> **This was a professional team project, built as part of [PROGRAMME NAME, YEAR].** RunX
+> **This was a professional team project, built in 2026.** RunX
 > was not commissioned and has not shipped. It is published for the research and the
 > reasoning, not for a commercial result.
 >
