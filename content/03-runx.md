@@ -17,8 +17,8 @@
 | **Tools** | Figma · FigJam · Google Forms · Miro |
 | **Deliverables** | Research report · competitive analysis · personas and journey map · IA · task and user flows · wireframes · hi-fi prototype |
 
-> **A collaborative design project.** I worked across the full process — research, IA, UI
-> and testing.
+> **A collaborative design project.** I worked across the full process — research,
+> information architecture, UI design, prototyping and usability testing.
 
 ---
 
@@ -32,13 +32,13 @@ wrong: what happens when you miss a week.
 
 ## The problem
 
-Running is the cheapest way into fitness and it has the highest drop-off.
+Running is the cheapest way into fitness, and it has the highest drop-off.
 
 | | |
 |---|---|
 | **57%** | of non-runners say the barrier is motivation, not fitness *(n=23)* |
 | **80%** | of respondents say beginners need a clear step-by-step plan *(n=25)* |
-| **~50%** | name subscription cost as their biggest complaint |
+| **About half** | name subscription cost as their biggest complaint *(n=25)* |
 | **3 of 6** | interviewees had abandoned an app that reset their plan |
 
 > "It forced me to restart from week one, which made me feel behind and back to zero."
@@ -83,18 +83,19 @@ to one of them:
 | Semi-structured interviews, 30–40 min | 6 participants — 1 beginner, 1 professional, 4 semi-pro; Iran and Australia | Depth on motivation, friction, emotional drivers |
 | Competitive analysis | 6 apps | Feature benchmark and market gap |
 
-**Limitations, stated up front.** n=27 is directional, not statistically significant. The
-sample skews 25–44 and digitally confident, under-representing runners over 55. Recruitment
+**Limitations, stated up front.** n=27 is directional. The sample is too small to
+generalise from. It skews 25–44 and digitally confident, under-representing runners over 55.
+Recruitment
 was convenience sampling through personal and running-community networks, which introduces
 network bias.
 
 ### What the survey said
 
-**Why people don't run** *(n=23, multi-select)* — lack of motivation 57% · prefer other
-workouts 39% · don't know where to start 22%
+**Why people don't run** *(n=23, multi-select)* — no motivation 57% · a preference for
+other workouts 39% · not knowing where to start 22%
 
-**Why people do run** *(n=25)* — stay fit or lose weight 72% · **mental health and stress
-relief 52%** · improve speed and endurance 24%
+**Why people do run** *(n=25)* — staying fit or losing weight 72% · **mental health and
+stress relief 52%** · improving speed and endurance 24%
 
 **What beginners need** *(n=25)* — a clear step-by-step plan 80% · motivational reminders
 56% · warm-up and recovery guidance 44%
@@ -109,8 +110,8 @@ competitor in the benchmark supports mental wellbeing in any form.
 **Community scored lowest of every feature in the survey — 8%. It came up in all six
 interviews.**
 
-Taken separately, one of those is noise. Taken together they say the same thing: people do
-not want to be ranked, they want company. The qualitative data explained what the
+On its own, either signal could be noise. Taken together, they say the same thing: people
+do not want to be ranked, they want company. The qualitative data explained what the
 quantitative data could not.
 
 > "A leaderboard is unhealthy for running, especially for beginners — it can make them feel
@@ -145,14 +146,14 @@ Every feature later in the project traces back to one of these six numbers.
 
 ## The gap in the market
 
-Six apps benchmarked in **March 2025** — Runna, Nike Run Club, Adidas Running, Strava,
+Six apps benchmarked in **March 2026** — Runna, Nike Run Club, Adidas Running, Strava,
 Runkeeper, and Couch to 5K, which ships under several publishers at different price points.
 
 Every competitor either coaches beginners through a fixed programme and then abandons them,
 or tracks performance for people who already know how to train.
 
-**None adapts the plan to a life that changes. None acknowledges that half of all runners
-run for their mental health.** Those two columns are empty across the entire benchmark, and
+**None adapts the plan to a life that changes. None acknowledges that half of our
+respondents run for their mental health.** Those two columns are empty across the entire benchmark, and
 they are the whole strategic argument.
 
 **Where RunX sits:** guided and adaptive coaching, for beginners *and* the people they
@@ -171,7 +172,7 @@ Walks daily, has never followed a training plan, has never used a fitness app, p
 Wants a habit she can keep and a 5K without stopping within three months. Blocked by too
 much information at once, apps that assume prior knowledge, and immediate paywalls.
 
-Her emotional sequence is the product brief in five words:
+Her emotional sequence is the product brief in five beats:
 **motivated → confused → self-conscious → guilty → gives up.**
 Every RunX decision interrupts that sequence at a different point.
 
@@ -192,7 +193,7 @@ Journey map, Olivia, seven stages:
 
 | Stage | Feeling | Pain | Opportunity |
 |---|---|---|---|
-| 1 · Trigger | Neutral | — | Mood-led entry point |
+| 1 · Deciding | Neutral | Vague ambition, no entry point | Plain-language goal picker |
 | 2 · Choosing | Sceptical | Paywall before value | Free core plan, no card required |
 | 3 · Onboarding | Hopeful | Long forms, jargon | Five questions, plain language |
 | 4 · First 2 weeks | Confident | Data overload | Simple default view |
@@ -200,8 +201,8 @@ Journey map, Olivia, seven stages:
 | **6 · Return** | **Anxious** | **Reset to week 1 → churn** | **Bridge week; user-defined streak rules** |
 | 7 · Long term | Satisfied | Progress buried in numbers | Weekly digest and PB highlights |
 
-Stages 5 and 6 are where every competitor loses the user, and where RunX wins them. The
-entire solution is built out of that opportunity column.
+Stages 5 and 6 are where competitors lose users — and where RunX wins them back. The
+entire solution is built from that opportunity column.
 
 ---
 
@@ -220,8 +221,8 @@ shared routes · self-defined streaks · warm-up and recovery guidance *(44%)*
 **Could have** — post-run mood check-in *(52%)* · cycle-aware load · local coach directory ·
 opt-in challenges · AI post-run feedback *(Dan)*
 
-**Won't have — and why it matters more than the list**
-- **Global leaderboards** — our own research says they discourage beginners
+**Won't have — and why the exclusions matter**
+- **Global leaderboards** — the research says they discourage beginners
 - **Nutrition tracking** — dilutes the core promise
 - **In-app race registration** — only 8% train for races
 
@@ -261,15 +262,16 @@ Several structural decisions came directly from participants:
 **Visual direction.** I chose lime over red. Sports brands default to red and orange — the
 colours of intensity and warning. I used a bright lime instead: energetic but encouraging,
 closer to growth than to alarm, and visually separate from Strava's orange and Nike's
-black-red. Teal carries the data — a calm counterweight for charts and Olivia's half of the
-product. I cast ordinary runners in the photography, not athletes mid-sprint, because Sara
-said she was scared of looking like she didn't belong. Casting is a design decision.
+black and red. Teal carries the data — a calm counterweight for charts and Olivia's half of
+the product. I cast ordinary runners in the photography, not athletes mid-sprint, because
+participants told me they were scared of looking like they didn't belong — the fear Sara is
+built from. Casting is a design decision.
 
 **Accessibility.** I set the accessibility rules: lime on white fails WCAG AA for text, so
 lime is used as a fill with Ink on top and never as a text colour on a light surface.
-44×44pt minimum targets — people tap start and pause while moving, cold, in the dark.
-Primary run controls sit in the lower third for one-handed reach. Dynamic type to 200%.
-VoiceOver labels on every metric tile.
+Minimum touch targets of 44×44pt on iOS and 48×48dp on Android — people tap start and
+pause while moving, cold, in the dark. Primary run controls sit in the lower third for
+one-handed reach. Dynamic Type to 200%. VoiceOver and TalkBack labels on every metric tile.
 
 ---
 
@@ -311,8 +313,8 @@ behaviour over time, and you cannot prototype your way to it.
 
 ## What I learned
 
-**Two data points that contradict each other are usually the most valuable finding in the
-set.** Community scored 8% in the survey and appeared in every single interview. Resolving
+**When two data points contradict each other, the tension between them is often the most
+valuable finding in the set.** Community scored 8% in the survey and appeared in every single interview. Resolving
 that tension — belonging, not ranking — shaped more of this product than any high-scoring
 feature did.
 
