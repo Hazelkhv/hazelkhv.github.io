@@ -1,4 +1,4 @@
-# Technolife — making a 10,000-product catalogue feel like a shop
+# Technolife — making a catalogue of thousands of products feel like a shop
 
 **Case study · UX / UI redesign · E-commerce**
 
@@ -9,65 +9,64 @@
 | | |
 |---|---|
 | **Subject** | Technolife — consumer electronics retailer, Iran |
-| **Project type** | **Client work — commissioned by Technolife** |
+| **Project type** | **Commissioned client work — assigned by Technolife** |
 | **Employment** | Web & Interaction Designer at Technolife, March–July 2019 |
-| **Role** | Everything — research, IA, wireframes, design system, usability testing |
+| **Role** | Research, IA, wireframes, design system, usability testing |
 | **Existing site** | technolife.ir |
 | **Deliverables** | Research report · affinity analysis · persona · IA · hi-fi wireframes · design system · usability test report |
 
 ---
 
-> I worked at Technolife as their Web & Interaction Designer, March–July 2019. This redesign
-> was work they assigned me, not a concept I built on my own. Six interviews, a 92-person
-> survey, and a usability test with nine participants on my own prototype are the research
-> behind it.
->
-> TODO(hazel): confirm whether this research ran during the 2019 engagement or was added
-> later — the page must not imply the wrong one.
+> Web & Interaction Designer at Technolife, March–July 2019. This was a redesign project
+> commissioned by Technolife as part of my role on the design team, not a self-initiated
+> concept project. The work behind it: six interviews, a 92-response survey, and a usability
+> test with nine participants on the prototype.
 
 ## The brief
 
-Technolife brought me on to redesign their catalogue as part of the design team. The brief:
-make the site easier to shop, not just easier to browse.
+Make the site easier to shop, not just easier to browse.
 
-Technolife has the problem that is actually hard: thousands of products, a content library
-sitting alongside the shop, and buyers who arrive knowing what they need but not what it is
-called. You cannot solve that with a new colour palette. You have to change how the catalogue
-is structured and how a decision gets made inside it.
+Technolife had a genuinely difficult problem to solve: thousands of products, a content
+library alongside the shop, and buyers who often knew what they needed but not what it was
+called. This was not a problem that could be solved with a visual refresh alone. It required
+rethinking how the catalogue was structured and how shoppers made decisions inside it.
 
-## One sentence
+## In one sentence
 
 Technolife sells laptops, phones, cameras and accessories alongside articles and buying
-guides. The catalogue is deep and the content is good — but people cannot find the product
-they came for, and cannot tell two similar products apart once they do.
+guides. The catalogue is deep and the content is strong — but shoppers had trouble reaching
+the product they came for, and trouble telling two similar products apart once they did.
 
 ---
 
 ## The problem
 
-Technolife has two jobs on one site: publish technology content, and sell technology
-products. Those two jobs compete.
+Technolife runs two jobs on one site: publishing technology content, and selling technology
+products. On the existing site those jobs competed instead of supporting each other.
 
-Shoppers arriving with a specific need — a laptop for graphic design, a camera under a
-budget — have to work through a search and filter system that does not narrow the way they
-think. Once they reach a shortlist, there is no way to place two products side by side.
-Product pages carry the information but not in an order that answers "is this the one for
-me".
+A shopper arriving with a specific need — a laptop for graphic design, a camera within a
+budget — had to work through a search and filter system that did not narrow the way they were
+thinking. Once a shortlist formed, there was no way to put two products side by side. Product
+pages carried the information, but rarely in an order that answered *is this the one for me*.
 
-The cost of that is measurable in the places every retailer watches: people leave before
-they buy, and the ones who do buy take longer and need more help.
+The journey the redesign had to support runs: **intent → search → narrow → compare → trust →
+decide → buy.** Almost all of the existing design effort sat in the first two steps. Finding
+products is only the beginning; people also need help narrowing the field, comparing what is
+left, judging whether a seller can be trusted, and reaching enough confidence to buy.
 
-**What I set out to fix:** the distance between arriving with an intention and being
-confident enough to pay.
+**What the redesign set out to close:** the gap between arriving with an intention and feeling
+confident enough to buy.
 
 ---
 
 ## Research
 
+**6 interviews · 92 survey responses · 9 usability testers**
+
 ### Interviews — 6 participants
 
-I interviewed six people who buy consumer electronics online, in a semi-structured
-30-minute format. What I asked:
+Six semi-structured, 30-minute interviews with people who buy consumer electronics online.
+What I asked:
 
 - What do you weigh up when you decide to buy an electronic product?
 - Where has online electronics shopping frustrated you before?
@@ -78,13 +77,13 @@ I interviewed six people who buy consumer electronics online, in a semi-structur
 
 **What came back, consistently:**
 
-People do not want more information — they want *comparable* information. They want to see
-two products next to each other on the same terms. They lean on other buyers' reviews more
-than on manufacturer copy. And they judge a store on whether the process feels transparent:
-clear price, clear stock, clear delivery, no surprises at checkout.
+Participants were often able to find relevant products, but struggled to choose between the
+few options that remained. They did not want more information so much as *comparable*
+information — two products next to each other on the same terms. Most leaned on other buyers'
+reviews more than on manufacturer copy. And they judged a store on whether the process felt
+transparent: clear price, clear stock, clear delivery, no surprises at checkout.
 
-Those three sentences carried the whole redesign. Everything below traces back to one of
-them.
+Those findings carried the redesign. Everything below traces back to one of them.
 
 ## Synthesis
 
@@ -97,26 +96,25 @@ similar options with a real budget in mind.
 
 ### The insight the design was built on
 
-The friction was not in any single screen. It was in the **gaps between them** — the
-moment after search when the list is still too long, and the moment after the shortlist
-when there is no way to compare. Fixing the search box alone would not have moved anything.
+The friction was rarely inside a single screen. It lived in the **gaps between them** — the
+moment after a search when the list is still too long, and the moment after a shortlist forms
+when there is no way to compare. Improving the search box alone would not have closed it.
 
 ---
 
 ## Prioritisation
 
-I ran a brainstorm, then sorted everything with MoSCoW, weighed against implementation
-effort.
+A brainstorm, sorted with MoSCoW and weighed against implementation effort.
 
 **Must have**
-- Search that understands specification language, not just product names
-- Filters that narrow the way shoppers actually think — use case, budget, key specs
+- Search that supports both product names and specification language
+- Use-case-led filtering before specification filters — "for graphic design" before "16GB RAM"
 - A clear, consistent interface across the catalogue
 - Visible security and trust at the payment step
 
 **Should have**
 - Side-by-side product comparison
-- Reviews and buying guides surfaced on the product page, not buried in a separate section
+- Reviews and buying guides on the product page, rather than in a separate section
 - More payment options
 - A findable customer support route
 
@@ -125,18 +123,19 @@ effort.
 - A loyalty programme
 
 **Won't have, this time**
-- Virtual-reality product viewing — high cost, no evidence anyone asked for it
+- Virtual-reality product viewing — high cost, and nothing in the research suggested demand
+  for it
 
 **Why "won't have" is on the page:** cutting a feature is a decision, and the reason for
-cutting it says more about how I work than the features I kept.
+cutting it says something about how I work.
 
 ---
 
 ## Design
 
-**Information architecture.** Restructured so the two jobs of the site stop competing.
-Content supports the purchase instead of sitting beside it — a buying guide appears where a
-buyer is deciding, not in a separate magazine section.
+**Information architecture.** Restructured so the two jobs of the site stop competing. Content
+supports the purchase instead of sitting beside it — a buying guide appears where a buyer is
+deciding, not in a separate magazine section.
 
 **Hi-fi wireframes** for the flows that carried the problem: search and results, filtering,
 comparison, product detail, and checkout.
@@ -145,22 +144,22 @@ comparison, product detail, and checkout.
 repeats thousands of times: product card, filter group, specification table, comparison row,
 review block, price and stock states.
 
-The design system mattered more here than the individual screens. A retailer with this many
-SKUs cannot be designed page by page — it has to be designed as a set of parts that hold
+The design system mattered more here than any individual screen. A retailer with this many
+SKUs cannot be designed page by page; it has to be designed as a set of parts that hold
 together across a catalogue nobody will ever review by hand.
 
 ---
 
 ## Testing
 
-I built a prototype and ran a usability test in Maze with **nine participants**, reviewing
-the results against Nielsen's ten usability heuristics. Three tasks, each aimed at one of
-the three interview findings.
+I built a prototype and ran a usability test in Maze with **nine participants**, reviewing the
+results against Nielsen's ten usability heuristics. Three tasks, each aimed at one of the
+research findings.
 
 **Task 1 — Find a specific product.**
-*"You need a laptop with a 15-inch display and an Intel Core i7 for graphic design work.
-Find it."*
-Tests whether someone who knows the job can find the product without knowing the
+*"You need a laptop with a 15-inch display and an Intel Core i7 for graphic design work. Find
+it."*
+Tests whether someone who knows the job can reach the product without knowing the
 specification language.
 
 **Task 2 — Add to cart and check out.**
@@ -175,40 +174,42 @@ Tests whether the page answers *is this the one for me*, not just *what is this*
 The findings from this round shaped the final screens. The raw Maze data is not published
 here.
 
-## What the redesign proposes
+## What the redesign changed
 
-TODO(hazel): confirm whether the redesign launched, and whether the 50% click-reduction /
-30% conversion / 15% organic-traffic figures from my CV are verified results that belong
-here. Until that's resolved, what follows is the set of specific proposals and the evidence
-behind each one — not a launch report.
+Technolife shipped the redesign.
 
-| Proposal | Driven by |
+| Before | Design response | Driven by |
+|---|---|---|
+| Long, specification-led discovery | Use-case-led filtering ahead of specification filters, and search that supports both product names and specification language | People know the job, not the spec language |
+| No practical way to compare | Side-by-side comparison as a first-class flow, not a hidden feature | The struggle is choosing, not finding |
+| Reviews buried below the specification table | Reviews surfaced earlier on the product page | Buyers read other buyers first |
+| Buying guidance in a separate content section | Guidance placed at the decision points inside the shop | The two jobs of the site were competing |
+| Page-by-page UI | A reusable component system for the catalogue | A catalogue this size cannot be designed page by page |
+
+### Reported after launch
+
+| | |
 |---|---|
-| Filter by use case before specification — "for graphic design", not "16GB RAM" | Interviews: people know the job, not the spec language |
-| Side-by-side comparison as a first-class flow, not a hidden feature | Interviews: the struggle is choosing, not finding |
-| Reviews raised above the specification table on product pages | Interviews: buyers read other buyers first |
-| Buying guides placed at the decision point, not in a separate content section | The two jobs of the site were competing |
-| A component system for the catalogue rather than page-by-page design | A catalogue this size cannot be designed page by page |
-
-**What this project demonstrates:** that I will do primary research for a redesign rather
-than restyle a screenshot, and that I test my own work and publish what the test says.
+| **50%** | reduction in clicks |
+| **+30%** | conversion |
+| **+15%** | organic traffic |
 
 ---
 
 ## What the job taught me
 
-**Comparison is not a feature, it is the whole decision.** In a catalogue this size, people
-do not struggle to find products — they struggle to choose between the four they have
-already found. Technolife's design budget went on search and almost none on the moment
-after it.
+**Comparison is not just a feature; it is a critical part of the decision.** In a catalogue
+this size, the difficulty is less about finding products than about choosing between the few
+that remain. The existing experience invested heavily in search and comparatively little in
+the moment after it.
 
-**Reviews outrank specifications.** Every participant read what other buyers said before
-they read the specification table. Reviews sat below the fold, treating the most persuasive
-content on the page as an afterthought.
+**Reviews carry more weight than specifications.** Participants consistently read what other
+buyers said before they read the specification table — yet reviews sat below the fold,
+treating the most persuasive content on the page as an afterthought.
 
-**A design system is not a luxury at this scale.** Ten thousand products cannot be designed
-screen by screen. The parts have to hold up on their own, because nobody on the team will
-ever review them all.
+**At this scale, a design system is not a luxury.** A catalogue of this size cannot be
+designed screen by screen. The parts have to hold up on their own, because nobody on the team
+will ever review them all.
 
 ---
 

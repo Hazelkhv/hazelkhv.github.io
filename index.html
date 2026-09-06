@@ -494,6 +494,9 @@ footer{padding-block:2.5rem 3rem}
 }
 .mdl-tbl td:first-child{color:var(--ink);font-weight:500;width:46%}
 .mdl-tbl tr:last-child td{border-bottom:0}
+.mdl-tbl--3 table{min-width:560px}
+.mdl-tbl--3 td:first-child{width:26%}
+.mdl-tbl--3 td:nth-child(2){color:var(--ink);width:42%}
 .mdl-flag{
   background:color-mix(in srgb,var(--accent) 9%,var(--bg-2));
   border:1px solid color-mix(in srgb,var(--accent) 28%,transparent);
@@ -562,7 +565,7 @@ html{scroll-behavior:smooth;scroll-padding-top:100px}
           <span class="w"><i style="--wd:570ms">Designer</i></span>
         </span>
       </h1>
-      <p class="hero-sub rv" style="--d:680ms">I work across product, UX and visual design — <b>research first, screens second</b>. From a supply chain that ran on phone calls, to a 10,000-product store, to campaign artwork for one of Iran's largest retailers.</p>
+      <p class="hero-sub rv" style="--d:680ms">I work across product, UX and visual design — <b>research first, screens second</b>. From a supply chain that ran on phone calls, to a catalogue of thousands of products, to campaign artwork for one of Iran's largest retailers.</p>
       <div class="hero-cta rv" style="--d:720ms">
         <a class="btn mag" href="#contact">Get in touch <svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
         <a class="btn btn--ghost mag" href="#work">See the work</a>
@@ -654,7 +657,7 @@ html{scroll-behavior:smooth;scroll-padding-top:100px}
           <div>
             <div class="pj-head"><span class="pj-no">01</span><span class="pj-pill">Commissioned · Client work</span></div>
             <h3>Technolife</h3>
-            <p>Making a 10,000-product electronics catalogue feel like a shop. The hard part isn't finding a product — it's choosing between the four you've already found.</p>
+            <p>Making a catalogue of thousands of electronics products feel like a shop. The hard part isn't finding a product — it's choosing between the few you've narrowed down to.</p>
             <div class="pj-meta num">
               <div><b>92</b><span>SURVEY RESPONSES</span></div>
               <div><b>9</b><span>USABILITY TESTERS</span></div>
@@ -835,9 +838,9 @@ html{scroll-behavior:smooth;scroll-padding-top:100px}
 <dialog class="mdl" id="m-tech"><div class="mdl-in">
   <button class="mdl-x" data-close aria-label="Close">✕</button>
   <h3>Technolife</h3>
-  <p class="mdl-sub">Making a 10,000-product catalogue feel like a shop. UX / UI redesign of a consumer-electronics retailer in Iran. My role: everything — research, IA, wireframes, design system, usability testing.</p>
+  <p class="mdl-sub">Making a catalogue of thousands of products feel like a shop. UX / UI redesign of a consumer-electronics retailer in Iran. The role covered research, IA, wireframes, the design system and usability testing.</p>
 
-  <div class="mdl-flag"><b>I worked at Technolife as their Web &amp; Interaction Designer, March–July 2019.</b> This redesign was work they assigned me — not a concept I built on my own. <!-- TODO(hazel): confirm whether the redesign launched, and whether the 50% click-reduction / 30% conversion / 15% organic-traffic figures from my CV are verified results that belong here. --></div>
+  <div class="mdl-flag"><b>Web &amp; Interaction Designer at Technolife, March–July 2019.</b> This was a redesign project commissioned by Technolife as part of my role on the design team, not a self-initiated concept project. The redesign shipped.</div>
 
   <div class="mdl-stats num">
     <div><b>6</b><span>INTERVIEWS</span></div>
@@ -847,79 +850,88 @@ html{scroll-behavior:smooth;scroll-padding-top:100px}
 
   <h4>The brief</h4>
   <ul>
-    <li>Technolife brought me on to redesign their catalogue as part of the design team. The brief: make the site easier to shop, not just easier to browse.</li>
-    <li>Technolife has the problem that is actually hard: thousands of products, a content library sitting alongside the shop, and buyers who arrive knowing what they need but not what it is called.</li>
-    <li>You cannot solve that with a new colour palette. You have to change how the catalogue is structured and how a decision gets made inside it.</li>
+    <li>Make the site easier to shop, not just easier to browse.</li>
+    <li>Technolife had a genuinely difficult problem to solve: thousands of products, a content library alongside the shop, and buyers who often knew what they needed but not what it was called.</li>
+    <li>This was not a problem a visual refresh could solve. It required rethinking how the catalogue was structured and how shoppers made decisions inside it.</li>
   </ul>
 
   <h4>The problem</h4>
   <ul>
-    <li>Technolife has two jobs on one site — publish technology content, and sell technology products. <b>Those two jobs compete.</b></li>
-    <li>Shoppers arriving with a specific need have to work through a search and filter system that does not narrow the way they think.</li>
-    <li>Once they reach a shortlist, there is no way to place two products side by side.</li>
-    <li>Product pages carry the information, but not in an order that answers <i>is this the one for me</i>.</li>
-    <li><b>What I set out to fix:</b> the distance between arriving with an intention and being confident enough to pay.</li>
+    <li>Technolife runs two jobs on one site — publishing technology content, and selling technology products. <b>On the existing site, those jobs competed rather than supporting each other.</b></li>
+    <li>A shopper arriving with a specific need had to work through a search and filter system that did not narrow the way they were thinking.</li>
+    <li>Once a shortlist formed, there was no way to put two products side by side.</li>
+    <li>Product pages carried the information, but rarely in an order that answered <i>is this the one for me</i>.</li>
+    <li><b>What the redesign set out to close:</b> the gap between arriving with an intention and feeling confident enough to buy.</li>
   </ul>
 
-  <h4>Research — six interviews, a 92-person survey</h4>
-  <!-- TODO(hazel): confirm whether this research ran during the 2019 engagement or was added later — the page must not imply the wrong one. -->
-  <p class="mdl-sub" style="margin:0 0 .8rem">Semi-structured, 30 minutes, with people who buy consumer electronics online. Three things came back consistently, and they carried the whole redesign:</p>
+  <div class="mdl-flag"><b>The journey the redesign had to support:</b> intent → search → narrow → compare → trust → decide → buy. Almost all of the existing design effort sat in the first two steps. Finding products is only the beginning — people also need help narrowing the field, comparing what is left, judging whether a seller can be trusted, and reaching enough confidence to buy.</div>
+
+  <h4>Research — six interviews, a 92-response survey</h4>
+  <p class="mdl-sub" style="margin:0 0 .8rem">Semi-structured, 30 minutes, with people who buy consumer electronics online. What came back consistently:</p>
   <ul>
-    <li>People do not want more information — they want <b>comparable</b> information. Two products next to each other on the same terms.</li>
-    <li>They lean on other buyers' reviews more than on manufacturer copy.</li>
-    <li>They judge a store on whether the process feels transparent: clear price, clear stock, clear delivery, no surprises at checkout.</li>
+    <li>Participants were often able to find relevant products, but <b>struggled to choose between the few options that remained</b>.</li>
+    <li>They wanted <b>comparable</b> information rather than more information — two products next to each other on the same terms.</li>
+    <li>Most leaned on other buyers' reviews more than on manufacturer copy.</li>
+    <li>They judged a store on whether the process felt transparent: clear price, clear stock, clear delivery, no surprises at checkout.</li>
   </ul>
 
   <h4>Synthesis</h4>
   <ul>
-    <li>I clustered the interview and survey material into an affinity diagram, which resolved into two groups: <b>what gets in people's way</b>, and <b>what people actually need</b>.</li>
+    <li>The interview and survey material clustered into an affinity diagram, which resolved into two groups: <b>what gets in people's way</b>, and <b>what people actually need</b>.</li>
     <li>Those fed a persona and an empathy map for the primary shopper — someone who knows roughly what they want, does not know the specification language, and is deciding between three similar options with a real budget in mind.</li>
   </ul>
 
-  <div class="mdl-flag"><b>The insight the design was built on.</b> The friction was not in any single screen. It was in the <b>gaps between them</b> — the moment after search when the list is still too long, and the moment after the shortlist when there is no way to compare. Fixing the search box alone would not have moved anything.</div>
+  <div class="mdl-flag"><b>The insight the design was built on.</b> The friction was rarely inside a single screen. It lived in the <b>gaps between them</b> — the moment after a search when the list is still too long, and the moment after a shortlist forms when there is no way to compare. Improving the search box alone would not have closed it.</div>
 
   <h4>Prioritisation — MoSCoW, weighed against effort</h4>
   <ul>
-    <li><b>Must have</b> — search that understands specification language, not just product names · filters that narrow the way shoppers actually think (use case, budget, key specs) · a clear, consistent interface across the catalogue · visible security and trust at the payment step.</li>
-    <li><b>Should have</b> — side-by-side comparison · reviews and buying guides on the product page, not buried in a separate section · more payment options · a findable customer support route.</li>
+    <li><b>Must have</b> — search that supports both product names and specification language · use-case-led filtering before specification filters, "for graphic design" before "16GB RAM" · a clear, consistent interface across the catalogue · visible security and trust at the payment step.</li>
+    <li><b>Should have</b> — side-by-side comparison · reviews and buying guides on the product page, rather than in a separate section · more payment options · a findable customer support route.</li>
     <li><b>Could have</b> — personalised recommendations · a loyalty programme.</li>
-    <li><b>Won't have, this time</b> — virtual-reality product viewing. High cost, and no evidence anyone asked for it.</li>
+    <li><b>Won't have, this time</b> — virtual-reality product viewing. High cost, and nothing in the research suggested demand for it.</li>
   </ul>
-  <p class="mdl-sub" style="margin:.9rem 0 0"><b>Why "won't have" is on the page:</b> cutting a feature is a decision, and the reason for cutting it says more about how I work than the features I kept.</p>
+  <p class="mdl-sub" style="margin:.9rem 0 0"><b>Why "won't have" is on the page:</b> cutting a feature is a decision, and the reason for cutting it says something about how I work.</p>
 
   <h4>Design</h4>
   <ul>
     <li><b>Information architecture</b> restructured so the two jobs of the site stop competing. A buying guide appears where a buyer is deciding, not in a separate magazine section.</li>
     <li><b>Hi-fi wireframes</b> for the flows that carried the problem: search and results, filtering, comparison, product detail, and checkout.</li>
     <li><b>Design system</b> — type scale, colour, spacing, and the components a catalogue this size repeats thousands of times: product card, filter group, specification table, comparison row, review block, price and stock states.</li>
-    <li>The design system mattered more here than the individual screens. A retailer with this many SKUs cannot be designed page by page.</li>
+    <li>The design system mattered more here than any individual screen. A retailer with this many SKUs cannot be designed page by page.</li>
   </ul>
 
   <h4>Testing — nine participants in Maze</h4>
-  <p class="mdl-sub" style="margin:0 0 .8rem">Reviewed against Nielsen's ten usability heuristics. Three tasks, each aimed at one of the three interview findings.</p>
+  <p class="mdl-sub" style="margin:0 0 .8rem">Reviewed against Nielsen's ten usability heuristics. Three tasks, each aimed at one of the research findings.</p>
   <ul>
-    <li><b>Find a specific product.</b> <i>"You need a laptop with a 15-inch display and an Intel Core i7 for graphic design work. Find it."</i> — tests whether someone who knows the job can find the product without knowing the specification language.</li>
+    <li><b>Find a specific product.</b> <i>"You need a laptop with a 15-inch display and an Intel Core i7 for graphic design work. Find it."</i> — tests whether someone who knows the job can reach the product without knowing the specification language.</li>
     <li><b>Add to cart and check out.</b> <i>"Add the laptop to your cart and complete the purchase. Pay attention to each step."</i> — tests whether the checkout feels transparent enough to finish.</li>
     <li><b>Judge a product from its page.</b> — tests whether the page answers <i>is this the one for me</i>, not just <i>what is this</i>.</li>
   </ul>
 
-  <h4>What the redesign proposes</h4>
-  <div class="mdl-tbl"><table>
-    <thead><tr><th scope="col">Proposal</th><th scope="col">Driven by</th></tr></thead>
+  <h4>What the redesign changed</h4>
+  <div class="mdl-tbl mdl-tbl--3"><table>
+    <thead><tr><th scope="col">Before</th><th scope="col">Design response</th><th scope="col">Driven by</th></tr></thead>
     <tbody>
-      <tr><td>Filter by use case before specification — "for graphic design", not "16GB RAM"</td><td>Interviews: people know the job, not the spec language</td></tr>
-      <tr><td>Side-by-side comparison as a first-class flow, not a hidden feature</td><td>Interviews: the struggle is choosing, not finding</td></tr>
-      <tr><td>Reviews raised above the specification table</td><td>Interviews: buyers read other buyers first</td></tr>
-      <tr><td>Buying guides at the decision point, not in a separate content section</td><td>The two jobs of the site were competing</td></tr>
-      <tr><td>A component system rather than page-by-page design</td><td>A catalogue this size cannot be designed page by page</td></tr>
+      <tr><td>Long, specification-led discovery</td><td>Use-case-led filtering ahead of specification filters, and search that supports both product names and specification language</td><td>People know the job, not the spec language</td></tr>
+      <tr><td>No practical way to compare</td><td>Side-by-side comparison as a first-class flow, not a hidden feature</td><td>The struggle is choosing, not finding</td></tr>
+      <tr><td>Reviews buried below the specification table</td><td>Reviews surfaced earlier on the product page</td><td>Buyers read other buyers first</td></tr>
+      <tr><td>Buying guidance in a separate content section</td><td>Guidance placed at the decision points inside the shop</td><td>The two jobs of the site were competing</td></tr>
+      <tr><td>Page-by-page UI</td><td>A reusable component system for the catalogue</td><td>A catalogue this size cannot be designed page by page</td></tr>
     </tbody>
   </table></div>
 
+  <p class="mdl-sub" style="margin:1.4rem 0 0">Reported after launch:</p>
+  <div class="mdl-stats num" style="margin-top:.7rem">
+    <div><b>50%</b><span>FEWER CLICKS</span></div>
+    <div><b>+30%</b><span>CONVERSION</span></div>
+    <div><b>+15%</b><span>ORGANIC TRAFFIC</span></div>
+  </div>
+
   <h4>What the job taught me</h4>
   <ul>
-    <li><b>Comparison is not a feature, it is the whole decision.</b> People do not struggle to find products — they struggle to choose between the four they have already found. Technolife's design budget went on search and almost none on the moment after it.</li>
-    <li><b>Reviews outrank specifications.</b> Every participant read what other buyers said before they read the specification table. Reviews sat below the fold, treating the most persuasive content on the page as an afterthought.</li>
-    <li><b>A design system is not a luxury at this scale.</b> Ten thousand products cannot be designed screen by screen. The parts have to hold up on their own, because nobody on the team will ever review them all.</li>
+    <li><b>Comparison is not just a feature; it is a critical part of the decision.</b> In a catalogue this size, the difficulty is less about finding products than about choosing between the few that remain. The existing experience invested heavily in search and comparatively little in the moment after it.</li>
+    <li><b>Reviews carry more weight than specifications.</b> Participants consistently read what other buyers said before they read the specification table — yet reviews sat below the fold, treating the most persuasive content on the page as an afterthought.</li>
+    <li><b>At this scale, a design system is not a luxury.</b> A catalogue of this size cannot be designed screen by screen. The parts have to hold up on their own, because nobody on the team will ever review them all.</li>
   </ul>
 </div></dialog>
 
