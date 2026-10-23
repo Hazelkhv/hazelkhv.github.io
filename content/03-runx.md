@@ -1,6 +1,6 @@
 # RunX — the app that doesn't send you back to week one
 
-**Case study · End-to-end UX / UI · Collaborative project, 2026**
+**Case study · End-to-end UX / UI · 2026**
 
 ---
 
@@ -9,16 +9,18 @@
 | | |
 |---|---|
 | **Product** | RunX — responsive marketing site + iOS / Android training app |
-| **Project type** | **Collaborative project** |
+| **Project type** | **Case study** — published for the research and the reasoning, not a commercial result |
 | **Year** | 2026 |
-| **My role** | User research · information architecture · UI design · prototyping · usability testing |
-| **Team** | Five designers — Leyla Gharegolchian, Maryam Daryan, Hazel Khosravi, Faezeh Khazaei, Maryam Esmaeilzadeh |
+| **My role** | Research and design — user research · competitive analysis · personas and journey map · information architecture · user flows · wireframes · UI design · hi-fi prototype |
 | **Duration** | 6 weeks |
 | **Tools** | Figma · FigJam · Google Forms · Miro |
 | **Deliverables** | Research report · competitive analysis · personas and journey map · IA · task and user flows · wireframes · hi-fi prototype |
 
-> **A collaborative design project.** I worked across the full process — research,
-> information architecture, UI design, prototyping and usability testing.
+> **The research and the design are mine.** I ran the user research and the competitive
+> analysis, built the personas, the journey map and the information architecture, drew the
+> user flows and the wireframes, and designed the UI and the hi-fi prototype — six weeks,
+> from a blank page to a prototype ready to test. Usability testing was the next phase and
+> never ran, so it is not claimed here.
 
 ---
 
@@ -152,7 +154,7 @@ Runkeeper, and Couch to 5K, which ships under several publishers at different pr
 Every competitor either coaches beginners through a fixed programme and then abandons them,
 or tracks performance for people who already know how to train.
 
-**None adapts the plan to a life that changes. None acknowledges that half of our
+**None adapts the plan to a life that changes. None acknowledges that half of the
 respondents run for their mental health.** Those two columns are empty across the entire benchmark, and
 they are the whole strategic argument.
 
@@ -275,7 +277,7 @@ one-handed reach. Dynamic Type to 200%. VoiceOver and TalkBack labels on every m
 
 ---
 
-## How we would know it worked
+## How I would know it worked
 
 Proposed targets for a concept product — not results.
 

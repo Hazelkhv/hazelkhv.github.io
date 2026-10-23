@@ -10,14 +10,14 @@
 |---|---|
 | **Subject** | Technolife — consumer electronics retailer, Iran |
 | **Project type** | **Commissioned client work — assigned by Technolife** |
-| **Employment** | Web & Interaction Designer at Technolife, March–July 2019 |
+| **Employment** | Web & Visual Designer at Technolife, March–July 2019 |
 | **Role** | Research, IA, wireframes, design system, usability testing |
 | **Existing site** | technolife.ir |
 | **Deliverables** | Research report · affinity analysis · persona · IA · hi-fi wireframes · design system · usability test report |
 
 ---
 
-> Web & Interaction Designer at Technolife, March–July 2019. This was a redesign project
+> Web & Visual Designer at Technolife, March–July 2019. This was a redesign project
 > commissioned by Technolife as part of my role on the design team, not a self-initiated
 > concept project. The work behind it: six interviews, a 92-response survey, and a usability
 > test with nine participants on the prototype.

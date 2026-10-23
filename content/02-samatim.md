@@ -10,6 +10,7 @@
 |---|---|
 | **Product** | Samatim — poultry supply-chain platform, Iran |
 | **Project type** | **Product design — shipped** |
+| **Employment** | UI/UX Designer at PartoBita, January 2021 – November 2023 |
 | **Role** | Product designer, end to end — research, IA, user flows, wireframes, UI kit, usability testing |
 | **Live** | Google Play — `com.samatim` |
 | **Deliverables** | Research · affinity maps · persona · user flows · IA · lo-fi and hi-fi wireframes · UI kit · usability test report |

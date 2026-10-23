@@ -3,7 +3,8 @@
 **Live: [hazelkhv.github.io](https://hazelkhv.github.io)**
 
 A single-page portfolio for Hazel Khosravi, product / UX / visual designer (Adelaide, SA).
-Skills, three case studies with the research behind them, process, and contact.
+Skills, three case studies with the research behind them, NEXA Studio's live build, a
+downloadable resume, process, and contact.
 
 ## Layout
 
@@ -14,6 +15,7 @@ build.js        builds both outputs from src/
 src/page.html   the source page; images appear as __IMG_*__ tokens
 src/img/        webp assets, inlined at build time
 content/        the long-form case studies the page draws from
+Hazel_Khosravi_Resume.pdf   the downloadable resume, served as-is (not built)
 ```
 
 `index.html` and `artifact.html` are generated. Edit `src/page.html`, then rebuild.
@@ -58,8 +60,19 @@ Rebuild before committing — `index.html` and `artifact.html` are generated, so
 Each project is labelled for what it actually is, and this should stay true if the
 content is edited:
 
-- **Technolife** — commissioned client work, done as Technolife's Web & Interaction
+- **Technolife** — commissioned client work, done as Technolife's Web & Visual
   Designer (March–July 2019). Not self-directed.
 - **Samatim** — shipped, live on Google Play.
-- **RunX** — a collaborative concept project, built in 2026, not commissioned and not
-  shipped. Hazel's part spanned research, IA, UI design, prototyping and usability testing.
+- **RunX** — a case study, built in 2026, not commissioned and not shipped. The research
+  and the design were Hazel's, from user research through to the hi-fi prototype.
+  Usability testing never ran, so nothing on the page claims it.
+- **NEXA Studio** — live at nexastudio.com.au, where Hazel is Web & AI Product Designer.
+  Arkan, which it links to, was not paid client work, so never call it that.
+
+## The resume PDF
+
+`Hazel_Khosravi_Resume.pdf` is exported from Hazel's Word resume with the phone number
+removed. Its two RunX bullets were also corrected to match the case study: no team, and
+no usability testing. It is the only PDF `.gitignore` lets in. When the resume changes, export a new
+copy the same way, check that the number is gone, and replace this file. The link is
+relative, so it works on the live site but not inside `artifact.html`.

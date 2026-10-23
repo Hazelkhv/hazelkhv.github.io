@@ -6,8 +6,10 @@ desktop.ini
 .env.local
 .env*.local
 
-# Keep personal documents out of the repo — the resume PDF carries a phone number.
+# Keep personal documents out of the repo — the original resume PDF carries a phone number.
+# The one exception is the published copy, exported with the phone number removed.
 *.pdf
+!/Hazel_Khosravi_Resume.pdf
 
 .vercel
 

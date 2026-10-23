@@ -28,11 +28,12 @@ const IMAGES = {
   __IMG_SAM_HOME__: 'sam-home.webp',
   __IMG_SAM_LOAD__: 'sam-load.webp',
   __IMG_SAM_VEHICLE__: 'sam-vehicle.webp',
+  __IMG_NEXA_HOME__: 'nexa-home.webp',
 };
 
 const DESCRIPTION =
   'Hazel Khosravi — product, UX and visual designer. Case studies for Samatim, ' +
-  'Technolife and RunX, with the research behind each one.';
+  'Technolife and RunX, and NEXA Studio’s live website, AI assistant and CRM.';
 
 // A tab icon without a binary file: the emoji drawn inside an inline SVG.
 const FAVICON =

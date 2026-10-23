@@ -18,6 +18,7 @@ node build.js
   - `artifact.html` — the same content as a bare fragment, for publishing as a Claude Artifact (which supplies its own doctype/head/body).
 - **`index.html` and `artifact.html` are generated — never edit them directly.** Edit `src/page.html`, then rerun `node build.js` before committing. If you edit `src/page.html` without rebuilding, the deployed site silently falls out of sync with the source.
 - The build has no dependencies beyond Node's `fs`/`path`; it fails loudly (`throw`) if an `__IMG_*__` token is missing its file, or if an image file exists but its token is never referenced — both are worth taking seriously since they mean the two are out of sync.
+- `Hazel_Khosravi_Resume.pdf` at the repo root is the one non-generated file the page links to (the RESUME section and the footer). It is a copy of Hazel's Word resume exported with the **phone number removed**, and it is the only PDF `.gitignore` allows. Two RunX bullets in it were also corrected from the Word file (23 October 2026): no "small design team", and no "ran usability testing". If the Word file still has the old wording, fix it before the next export. Never replace it with her original PDF. When the resume changes, export it again without the number and check the text for it before committing. The relative link works on GitHub Pages but not in `artifact.html`.
 
 `compose-portrait.js` (`node compose-portrait.js [cutout.png] [out.webp]`) is a separate, occasional-use script that composites `src/img/portrait-cutout.png` onto a gradient background to produce `src/img/portrait.webp`. It requires `sharp`, and currently `require()`s it from an absolute, machine-specific path outside this repo — it will not run as-is on another machine without editing that path or installing `sharp` locally.
 
@@ -32,11 +33,11 @@ GitHub Pages serves `index.html` from `main`. The repo name (`hazelkhv.github.io
 
 ## Architecture of `src/page.html`
 
-Everything lives in one file, organized as HTML comment banners (`<!-- ===== NAME ===== -->`) marking top-level sections in document order: NAV, HERO, MARQUEE, SKILLS, WORK, PROCESS, CERTIFICATIONS, FAQ, CONTACT, then MODALS, then a single inline `<script>`.
+Everything lives in one file, organized as HTML comment banners (`<!-- ===== NAME ===== -->`) marking top-level sections in document order: NAV, HERO, MARQUEE, SKILLS, WORK, RESUME, PROCESS, CERTIFICATIONS, FAQ, CONTACT, then MODALS, then a single inline `<script>`.
 
 **Theming.** The entire palette is a CSS custom-property block at the top of `<style>` (`:root { --bg, --ink, --accent, ... }`), redefined once under `@media (prefers-color-scheme:dark)` and again under `:root[data-theme="dark"]`. No color is ever set outside that block. The `<dialog>` elements explicitly reset `background`/`color` because the UA default (`Canvas`/`CanvasText`) tracks the OS theme rather than the page's `data-theme`, which breaks case-study text if the two disagree. The theme toggle in the script writes `data-theme` to `<html>` and persists it to `localStorage` under `hk-t`.
 
-**Case studies live in `<dialog>` modals, not separate pages.** Each of the three WORK section project cards (`.pj`) has an `Explore project` button with `data-mdl="m-<id>"`; the click handler at the bottom of the script does `document.getElementById(id).showModal()`. The corresponding `<dialog class="mdl" id="m-<id>">` sits in the MODALS block near the end of the body. Adding or editing a case study means touching both the card teaser in WORK and its modal body in MODALS — they are independent markup, not templated from one source.
+**Case studies live in `<dialog>` modals, not separate pages.** Each of the four WORK section project cards (`.pj`) has an `Explore project` button with `data-mdl="m-<id>"`; the click handler at the bottom of the script does `document.getElementById(id).showModal()`. The corresponding `<dialog class="mdl" id="m-<id>">` sits in the MODALS block near the end of the body. Adding or editing a case study means touching both the card teaser in WORK and its modal body in MODALS — they are independent markup, not templated from one source.
 
 **`content/*.md`** (`01-technolife.md`, `02-samatim.md`, `03-runx.md`) are long-form source documents the modal copy is drawn from — they are not rendered by the site or referenced by the build. When case-study facts change, update both the relevant `content/*.md` and the corresponding modal in `src/page.html`; they are meant to stay in sync but nothing enforces that automatically.
 
@@ -47,3 +48,8 @@ Everything lives in one file, organized as HTML comment banners (`<!-- ===== NAM
 ## Content accuracy
 
 Each project card/modal states what kind of work it was (shipped / commissioned client work / team project), and that framing has been a real source of errors before — verify project-type claims against what the user tells you rather than the existing copy when in doubt. Where a fact isn't verified, the convention in this repo is an inline `TODO(hazel): ...` HTML comment near the claim, not a guess.
+
+Settled facts that have been wrong before:
+
+- **RunX** is a case study, not commissioned and not shipped. The research and the design were Hazel's alone, from user research through to the hi-fi prototype. Usability testing never ran. This matches the RunX page on nexastudio.com.au (Hazel's instruction, 23 October 2026), so don't call RunX a team project and don't credit testing.
+- **NEXA Studio** (card 04) is live at nexastudio.com.au. Hazel's title there is Web & AI Product Designer. Its features are summarised from the NEXA repo (`Hazelkhv/nexa`). Arkan, which NEXA links to, was not paid client work, so don't call it client work.

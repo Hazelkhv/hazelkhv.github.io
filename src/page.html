@@ -270,6 +270,7 @@ p{margin:0}
 }
 .pj-go:hover i{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
 .pj-go svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.pj-acts{display:flex;flex-wrap:wrap;gap:.75rem 1.75rem}
 .pj-vis{
   position:relative;overflow:hidden;display:grid;place-items:center;
   padding:clamp(1.25rem,3vw,2.25rem);perspective:1400px;
@@ -351,6 +352,18 @@ p{margin:0}
 .step b{font-family:var(--disp);font-size:.8125rem;color:var(--accent);display:block;margin-bottom:1.75rem}
 .step h4{font-size:1.1875rem;margin-bottom:.55rem}
 .step p{font-size:.875rem;color:var(--ink-2);line-height:1.55}
+
+/* ================= RESUME ================= */
+.cv{
+  display:flex;align-items:flex-end;justify-content:space-between;gap:2rem;flex-wrap:wrap;
+  background:var(--bg-2);border:1px solid var(--line);border-radius:var(--r);
+  padding:clamp(1.75rem,4vw,3rem);
+}
+.cv h2{font-size:clamp(1.75rem,3.6vw,2.75rem);max-width:20ch;margin-top:1.15rem}
+.cv p{color:var(--ink-2);font-size:.9375rem;max-width:46ch;margin-top:1rem}
+.cv-dl{display:flex;flex-direction:column;align-items:flex-start;gap:.65rem}
+.cv-meta{font-size:.75rem;font-weight:500;letter-spacing:.02em;color:var(--ink-2)}
+.cv .btn:hover svg{transform:translateY(3px)}
 
 /* ================= CERTIFICATIONS ================= */
 .certs{
@@ -525,6 +538,7 @@ html{scroll-behavior:smooth;scroll-padding-top:100px}
     <nav aria-label="Primary">
       <a href="#skills">Skills</a>
       <a href="#work">Work</a>
+      <a href="#resume">Resume</a>
       <a href="#process">Process</a>
       <a href="#certifications">Certifications</a>
       <a href="#faq">FAQ</a>
@@ -556,7 +570,7 @@ html{scroll-behavior:smooth;scroll-padding-top:100px}
           <span class="w"><i style="--wd:570ms">Designer</i></span>
         </span>
       </h1>
-      <p class="hero-sub rv" style="--d:680ms">I work across product, UX and visual design — <b>research first, screens second</b>. From a supply chain that ran on phone calls, to a catalogue of thousands of products, to campaign artwork for one of Iran's largest retailers.</p>
+      <p class="hero-sub rv" style="--d:680ms">I work across product, UX and visual design — <b>research first, screens second</b>. From a supply chain that ran on phone calls and a catalogue of thousands of products, to the websites and AI receptionists I design for small businesses today.</p>
       <div class="hero-cta rv" style="--d:720ms">
         <a class="btn mag" href="#contact">Get in touch <svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
         <a class="btn btn--ghost mag" href="#work">See the work</a>
@@ -571,12 +585,12 @@ html{scroll-behavior:smooth;scroll-padding-top:100px}
 
 <!-- ===================== MARQUEE ===================== -->
 <div class="mq" aria-hidden="true"><div class="mq-t">
-  <span>UX Research</span><span>Product Design</span><span>Visual Design</span><span>Design Systems</span><span>Brand Identity</span><span>Typography</span><span>Usability Testing</span><span>Information Architecture</span><span>Graphic Design</span><span>UI Design</span>
-  <span>UX Research</span><span>Product Design</span><span>Visual Design</span><span>Design Systems</span><span>Brand Identity</span><span>Typography</span><span>Usability Testing</span><span>Information Architecture</span><span>Graphic Design</span><span>UI Design</span>
+  <span>UX Research</span><span>Product Design</span><span>Visual Design</span><span>Design Systems</span><span>AI Chatbots</span><span>Voice Agents</span><span>Brand Identity</span><span>Typography</span><span>Usability Testing</span><span>Information Architecture</span><span>Web Design</span><span>Graphic Design</span><span>UI Design</span>
+  <span>UX Research</span><span>Product Design</span><span>Visual Design</span><span>Design Systems</span><span>AI Chatbots</span><span>Voice Agents</span><span>Brand Identity</span><span>Typography</span><span>Usability Testing</span><span>Information Architecture</span><span>Web Design</span><span>Graphic Design</span><span>UI Design</span>
 </div></div>
 <div class="mq mq--rev" aria-hidden="true"><div class="mq-t">
-  <span>Figma</span><span>Photoshop</span><span>Illustrator</span><span>InDesign</span><span>FigJam</span><span>Maze</span><span>Canva</span><span>Miro</span><span>Social Media Assets</span><span>Print &amp; Digital</span><span>Packaging</span><span>Accessibility</span>
-  <span>Figma</span><span>Photoshop</span><span>Illustrator</span><span>InDesign</span><span>FigJam</span><span>Maze</span><span>Canva</span><span>Miro</span><span>Social Media Assets</span><span>Print &amp; Digital</span><span>Packaging</span><span>Accessibility</span>
+  <span>Figma</span><span>Adobe XD</span><span>Photoshop</span><span>Illustrator</span><span>InDesign</span><span>Zeplin</span><span>FigJam</span><span>Maze</span><span>Canva</span><span>Miro</span><span>CRM Automation</span><span>SEO &amp; CMS</span><span>Social Media Assets</span><span>Print &amp; Digital</span><span>Packaging</span><span>Accessibility</span>
+  <span>Figma</span><span>Adobe XD</span><span>Photoshop</span><span>Illustrator</span><span>InDesign</span><span>Zeplin</span><span>FigJam</span><span>Maze</span><span>Canva</span><span>Miro</span><span>CRM Automation</span><span>SEO &amp; CMS</span><span>Social Media Assets</span><span>Print &amp; Digital</span><span>Packaging</span><span>Accessibility</span>
 </div></div>
 
 <!-- ===================== SKILLS ===================== -->
@@ -626,6 +640,18 @@ html{scroll-behavior:smooth;scroll-padding-top:100px}
       <p>Brief to concept to final artwork. Campaign and promotional material across print and digital — the everyday production work that keeps a marketing team moving, delivered on brand and on deadline.</p>
       <div class="tags"><span class="tag">Adobe Photoshop</span><span class="tag">Adobe Illustrator</span><span class="tag">Adobe InDesign</span><span class="tag">Canva</span><span class="tag">Flyers &amp; brochures</span><span class="tag">Social media assets</span><span class="tag">Campaign &amp; advertising collateral</span><span class="tag">Banners &amp; signage</span><span class="tag">Infographics</span><span class="tag">Product &amp; promo pages</span><span class="tag">Presentation decks</span><span class="tag">Print &amp; digital artwork</span></div>
     </article>
+    <article class="skill rv tilt" style="--d:480ms">
+      <span class="skill-n">07</span>
+      <h3>AI Customer Systems</h3>
+      <p>Chatbots trained on a business's own documents, AI voice receptionists, automated booking and CRM follow-up — designed as conversations first: the flow, the tone, and the exact point the assistant hands over to a person.</p>
+      <div class="tags"><span class="tag">Chatbot design</span><span class="tag">AI voice agents</span><span class="tag">Conversation flows</span><span class="tag">Human handover</span><span class="tag">CRM integration</span><span class="tag">Workflow automation</span></div>
+    </article>
+    <article class="skill rv tilt" style="--d:560ms">
+      <span class="skill-n">08</span>
+      <h3>Web Design, Build &amp; Launch</h3>
+      <p>Responsive, accessible websites taken from discovery through to a production build — with SEO, performance and an editable CMS designed in from the start, not added after sign-off.</p>
+      <div class="tags"><span class="tag">Responsive web design</span><span class="tag">Landing pages</span><span class="tag">SEO</span><span class="tag">CMS</span><span class="tag">Performance</span><span class="tag">WCAG compliance</span></div>
+    </article>
   </div>
 </section>
 
@@ -636,7 +662,7 @@ html{scroll-behavior:smooth;scroll-padding-top:100px}
       <span class="lbl">Selected work</span>
       <h2 style="margin-top:1.15rem">Projects that solved a real problem.</h2>
     </div>
-    <p class="rv" style="--d:100ms">Each one is labelled for what it actually is — shipped, client work, or made with a team.</p>
+    <p class="rv" style="--d:100ms">Each one is labelled for what it actually is — client work, shipped, a case study, or live today.</p>
   </div>
 
   <div class="stack">
@@ -700,7 +726,7 @@ html{scroll-behavior:smooth;scroll-padding-top:100px}
       <div class="pj-in">
         <div class="pj-txt">
           <div>
-            <div class="pj-head"><span class="pj-no">03</span><span class="pj-pill">Concept · Collaborative</span></div>
+            <div class="pj-head"><span class="pj-no">03</span><span class="pj-pill">Case study</span></div>
             <h3>RunX</h3>
             <p>Running apps measure runs. They don't keep a person running. RunX is built around the one moment every competitor gets wrong — the week you miss.</p>
             <div class="pj-meta num">
@@ -721,6 +747,50 @@ html{scroll-behavior:smooth;scroll-padding-top:100px}
       </div>
     </article>
 
+    <!-- 04 NEXA STUDIO -->
+    <article class="pj" style="--i:3">
+      <div class="pj-in">
+        <div class="pj-txt">
+          <div>
+            <div class="pj-head"><span class="pj-no">04</span><span class="pj-pill pj-pill--live">Live · nexastudio.com.au</span></div>
+            <h3>NEXA Studio</h3>
+            <p>The studio's whole customer system, built as one product: the website, an AI assistant that answers when nobody can, and the admin panel and CRM behind both.</p>
+            <div class="pj-meta num">
+              <div><b>24/7</b><span>AI ASSISTANT</span></div>
+            </div>
+          </div>
+          <div class="pj-acts">
+            <button class="pj-go" data-mdl="m-nexa">Explore project <i><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></i></button>
+            <a class="pj-go" href="https://www.nexastudio.com.au" target="_blank" rel="noopener">Visit live site <i><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></i></a>
+          </div>
+        </div>
+        <div class="pj-vis g-dark">
+          <div class="win">
+            <div class="win-bar" aria-hidden="true">
+              <span class="win-dot"></span><span class="win-dot"></span><span class="win-dot"></span>
+              <span class="win-url">nexastudio.com.au</span>
+            </div>
+            <div class="win-shot"><img src="__IMG_NEXA_HOME__" alt="NEXA Studio homepage: “Your website, an AI receptionist, and follow-up — run as one system”, with the Assistant button in the corner" loading="lazy"></div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ===================== RESUME ===================== -->
+<section id="resume" class="sec wrap">
+  <div class="cv rv">
+    <div>
+      <span class="lbl">Resume</span>
+      <h2>Every role, result and certification, in one PDF.</h2>
+      <p>Six years across product, UX and visual design — from Digikala and Technolife to PartoBita and NEXA Studio.</p>
+    </div>
+    <div class="cv-dl">
+      <a class="btn mag" href="Hazel_Khosravi_Resume.pdf" download>Download resume <svg viewBox="0 0 24 24"><path d="M12 4v12M6 11l6 6 6-6M5 20h14"/></svg></a>
+      <span class="cv-meta">PDF · 3 pages</span>
+    </div>
   </div>
 </section>
 
@@ -748,10 +818,14 @@ html{scroll-behavior:smooth;scroll-padding-top:100px}
       <span class="lbl">Licenses &amp; certifications</span>
       <h2 style="margin-top:1.15rem">Formal training behind the method.</h2>
     </div>
-    <p class="rv" style="--d:100ms">Seven certifications from the Interaction Design Foundation, completed in 2024 — usability, design thinking, perception and research practice.</p>
+    <p class="rv" style="--d:100ms">A Certified AI Consultant qualification in 2026, and seven certifications from the Interaction Design Foundation in 2024 — usability, design thinking, perception and research practice.</p>
   </div>
 
   <div class="certs rv">
+    <article class="cert">
+      <span class="cert-seal" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>
+      <div><h3>Certified AI Consultant (120 CPD Credits)</h3><span class="cert-meta">Careerpreneur Academy · 2026</span></div>
+    </article>
     <article class="cert">
       <span class="cert-seal" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>
       <div><h3>The Practical Guide to Usability</h3><span class="cert-meta">Interaction Design Foundation · 2024</span></div>
@@ -794,11 +868,12 @@ html{scroll-behavior:smooth;scroll-padding-top:100px}
   </div>
   <div class="faq rv">
     <details class="q"><summary>What does your design process look like? <span class="q-i"></span></summary><div class="q-a">Research, structure, design, test — in that order. I start by talking to the people who'll use the product, cluster what they said into insights, then build the information architecture and flows before any screen exists. Screens come last, and they get tested before they get called finished.</div></details>
-    <details class="q"><summary>Do you do research, or just the interface? <span class="q-i"></span></summary><div class="q-a">Both, and I'd rather not do the second without the first. On every project on this page I ran my own interviews, surveys and usability tests. If research already exists on your side, I'll work from it — I just won't design on assumptions nobody has checked.</div></details>
+    <details class="q"><summary>Do you do research, or just the interface? <span class="q-i"></span></summary><div class="q-a">Both, and I'd rather not do the second without the first. On Technolife, Samatim and RunX I ran my own interviews and surveys, and on the first two my own usability tests as well. If research already exists on your side, I'll work from it — I just won't design on assumptions nobody has checked.</div></details>
     <details class="q"><summary>How long does a project take? <span class="q-i"></span></summary><div class="q-a">A focused end-to-end project runs about six weeks: roughly a week of research, a week of synthesis and structure, two to three weeks of design, and a round of testing with time to act on it. Bigger platforms take longer, and I'll tell you which parts of the scope are driving that before we start.</div></details>
     <details class="q"><summary>What do I actually get at the end? <span class="q-i"></span></summary><div class="q-a">A research report, the personas and flows behind the decisions, an information architecture, hi-fi screens, an interactive prototype, and a component system your developers can build from. Plus the usability test results — including anything that didn't work.</div></details>
     <details class="q"><summary>Can you work with an existing design system? <span class="q-i"></span></summary><div class="q-a">Yes. If you have one, I design inside it and extend it where it's genuinely missing something. If you don't, I'll build the parts you repeat most often first — cards, forms, tables, states — rather than styling screens one at a time.</div></details>
-    <details class="q"><summary>Do you take on graphic design work too? <span class="q-i"></span></summary><div class="q-a">Yes — that's where I started. Campaign and promotional artwork, flyers and brochures, social media assets, banners and signage, infographics, presentation decks, packaging and print-ready final art. At Digikala I produced product pages and promotional material inside brand guidelines every day, so I'm comfortable working to an existing brand system and to a marketing deadline.</div></details>
+    <details class="q"><summary>Do you take on graphic design work too? <span class="q-i"></span></summary><div class="q-a">Yes — that's where I started. Campaign and promotional artwork, flyers and brochures, social media assets, banners and signage, infographics, presentation decks, packaging and print-ready final art. At Digikala I produced product pages and promotional material inside brand guidelines every day, so I'm comfortable working to an existing brand system and to a marketing deadline. Today I do the same as a volunteer for the Persian Cultural Association of South Australia — event posters, banners, flyers, decks and social content, in English and Persian.</div></details>
+    <details class="q"><summary>Do you design AI chatbots and voice agents? <span class="q-i"></span></summary><div class="q-a">Yes — it's part of my current role at NEXA Studio. Chatbots trained on a business's own documents, AI voice receptionists, automated booking and the CRM follow-up behind them. I design them the way I design any product: the conversation flows, the tone, and the exact point where the assistant hands over to a person. I'm also a Certified AI Consultant (Careerpreneur Academy, 2026).</div></details>
     <details class="q"><summary>Which languages do you work in? <span class="q-i"></span></summary><div class="q-a">English and Persian, including right-to-left layouts — the typographic scale, line height and direction handling that Persian actually needs, not a mirrored English design.</div></details>
   </div>
 </section>
@@ -818,6 +893,7 @@ html{scroll-behavior:smooth;scroll-padding-top:100px}
     <div class="foot-l">
       <a href="https://www.linkedin.com/in/hazelkhosravi/" target="_blank" rel="noopener">LinkedIn</a>
       <a href="mailto:hazel.khosravi@gmail.com">Email</a>
+      <a href="Hazel_Khosravi_Resume.pdf" download>Resume</a>
       <a href="#top">Back to top</a>
     </div>
   </div>
@@ -831,7 +907,7 @@ html{scroll-behavior:smooth;scroll-padding-top:100px}
   <h3>Technolife</h3>
   <p class="mdl-sub">Making a catalogue of thousands of products feel like a shop. UX / UI redesign of a consumer-electronics retailer in Iran. The role covered research, IA, wireframes, the design system and usability testing.</p>
 
-  <div class="mdl-flag"><b>Web &amp; Interaction Designer at Technolife, March–July 2019.</b> This was a redesign project commissioned by Technolife as part of my role on the design team, not a self-initiated concept project. The redesign shipped.</div>
+  <div class="mdl-flag"><b>Web &amp; Visual Designer at Technolife, March–July 2019.</b> This was a redesign project commissioned by Technolife as part of my role on the design team, not a self-initiated concept project. The redesign shipped.</div>
 
   <div class="mdl-stats num">
     <div><b>6</b><span>INTERVIEWS</span></div>
@@ -930,7 +1006,7 @@ html{scroll-behavior:smooth;scroll-padding-top:100px}
 <dialog class="mdl" id="m-samatim"><div class="mdl-in">
   <button class="mdl-x" data-close aria-label="Close">✕</button>
   <h3>Samatim</h3>
-  <p class="mdl-sub">Putting a paper supply chain on a phone. End-to-end product design for a poultry supply-chain platform in Iran — shipped and live on Google Play as <code>com.samatim</code>. Research, IA, user flows, wireframes, UI kit and usability testing.</p>
+  <p class="mdl-sub">Putting a paper supply chain on a phone. End-to-end product design for a poultry supply-chain platform in Iran, done as UI/UX Designer at PartoBita — shipped and live on Google Play as <code>com.samatim</code>. Research, IA, user flows, wireframes, UI kit and usability testing.</p>
 
   <p class="mdl-sub">Iran's chicken supply chain ran on phone calls, paper and trust. Samatim is the platform that made every transaction between farm, intermediary and slaughterhouse visible — designed for users who had never wanted software in the first place.</p>
 
@@ -1037,7 +1113,7 @@ html{scroll-behavior:smooth;scroll-padding-top:100px}
   <h3>RunX</h3>
   <p class="mdl-sub">The app that doesn't send you back to week one. A responsive marketing site and iOS / Android training app, built in 2026.</p>
 
-  <div class="mdl-flag"><b>A collaborative design project.</b> I worked across the full process — research, information architecture, UI design, prototyping and usability testing.</div>
+  <div class="mdl-flag"><b>The research and the design are mine.</b> I ran the user research and the competitive analysis, built the personas, the journey map and the information architecture, drew the user flows and the wireframes, and designed the UI and the hi-fi prototype — six weeks, from a blank page to a prototype ready to test. RunX is published for the research and the reasoning rather than for a commercial result.</div>
 
   <div class="mdl-stats num">
     <div><b>27</b><span>SURVEY RESPONSES</span></div>
@@ -1103,7 +1179,7 @@ html{scroll-behavior:smooth;scroll-padding-top:100px}
   <ul>
     <li>Six apps benchmarked in March 2026 — Runna, Nike Run Club, Adidas Running, Strava, Runkeeper and Couch to 5K.</li>
     <li>Every competitor either coaches beginners through a fixed programme and then abandons them or tracks performance for people who already know how to train.</li>
-    <li><b>None adapts the plan to a life that changes. None acknowledges that half of our respondents run for their mental health.</b> Those two columns are empty across the entire benchmark — that is the whole strategic argument.</li>
+    <li><b>None adapts the plan to a life that changes. None acknowledges that half of the respondents run for their mental health.</b> Those two columns are empty across the entire benchmark — that is the whole strategic argument.</li>
   </ul>
 
   <h4>Who it is for</h4>
@@ -1149,7 +1225,7 @@ html{scroll-behavior:smooth;scroll-padding-top:100px}
     <li><b>In-app race registration</b> — only 8% train for races.</li>
   </ul>
 
-  <h4>How we would know it worked</h4>
+  <h4>How I would know it worked</h4>
   <div class="mdl-tbl"><table>
     <thead><tr><th scope="col">Metric</th><th scope="col">Target</th></tr></thead>
     <tbody>
@@ -1168,6 +1244,50 @@ html{scroll-behavior:smooth;scroll-padding-top:100px}
     <li><b>When two data points contradict each other, the tension between them is often the most valuable finding in the set.</b> Resolving that tension — belonging, not ranking — shaped more of this product than any high-scoring feature did.</li>
     <li><b>What I would do differently.</b> Build testing into the middle of the timeline rather than leaving validation to the end. Recruit a wider age range. Ask about willingness to pay with concrete price points instead of a yes/no question. And test the plan-generation logic against real training data with a coach, not only the interface with users.</li>
   </ul>
+</div></dialog>
+
+<!-- ---------------- NEXA STUDIO ---------------- -->
+<dialog class="mdl" id="m-nexa"><div class="mdl-in">
+  <button class="mdl-x" data-close aria-label="Close">✕</button>
+  <h3>NEXA Studio</h3>
+  <p class="mdl-sub">One system instead of three vendors. A design-led studio in Adelaide that gives small businesses their website, an AI assistant that answers when nobody can, and the CRM follow-up behind both — and this is the studio's own build of all three.</p>
+
+  <div class="mdl-flag"><b>Web &amp; AI Product Designer at NEXA Studio, May 2026 – present.</b> The website, the AI assistant and the admin panel are live in production at nexastudio.com.au.</div>
+
+  <div class="mdl-stats num">
+    <div><b>24/7</b><span>AI ASSISTANT</span></div>
+  </div>
+
+  <h4>The website</h4>
+  <ul>
+    <li>Five services with a request form, and prices published up front.</li>
+    <li>Two case studies — Arkan, a website and AI assistant for a business strategy advisory, and RunX — plus a blog and privacy, terms and accessibility pages.</li>
+  </ul>
+
+  <h4>The AI assistant</h4>
+  <ul>
+    <li>Answers from NEXA's own documents, in the language it is asked in — English or Persian.</li>
+    <li>Takes an enquiry itself, and hands the conversation to a person when it should.</li>
+    <li>Checks its own answers for invented prices or figures, and runs under a monthly spend cap.</li>
+    <li>Works on the site, as a widget other sites can embed, and on Telegram once connected.</li>
+  </ul>
+
+  <h4>The admin panel</h4>
+  <ul>
+    <li><b>Bilingual</b> — English and Persian, right-to-left included.</li>
+    <li><b>CRM</b> — leads with an AI fit score, contacts with a full timeline, and a drag-and-drop deals board.</li>
+    <li><b>Documents</b> — proposals and contracts with a live PDF preview; contracts are signed online.</li>
+    <li><b>AI tools</b> — personalised email campaigns, and "Ask the CRM" for questions in plain language.</li>
+    <li><b>The assistant's controls</b> — knowledge base, prompt, model and every conversation, in one place.</li>
+  </ul>
+
+  <h4>The blog</h4>
+  <ul>
+    <li>Nine AI agents write each post. It publishes itself only if it scores 75 or more; otherwise it waits for a person.</li>
+  </ul>
+
+  <p class="mdl-sub" style="margin:1.4rem 0 0"><b>Built with</b> Next.js · React · TypeScript · Supabase · Vercel</p>
+  <a class="btn" href="https://www.nexastudio.com.au" target="_blank" rel="noopener" style="margin-top:1.5rem">Visit nexastudio.com.au <svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
 </div></dialog>
 
 <script>
