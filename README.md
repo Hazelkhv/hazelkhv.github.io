@@ -64,9 +64,8 @@ content is edited:
   Designer (March–July 2019). Not self-directed.
 - **Samatim** — shipped, live on Google Play.
 - **RunX** — a case study, built in 2026, not commissioned and not shipped. The research
-  and the design were Hazel's alone, from user research through to the hi-fi prototype,
-  and she ran the usability testing. No result from that testing is published, so the
-  page claims none.
+  and the design were Hazel's alone, from user research through to the hi-fi prototype.
+  Nothing on the page mentions usability testing for it.
 - **NEXA Studio** — live at nexastudio.com.au, where Hazel is Web & AI Product Designer.
   Arkan, which it links to, was not paid client work, so never call it that.
 

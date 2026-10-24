@@ -11,15 +11,15 @@
 | **Product** | RunX — responsive marketing site + iOS / Android training app |
 | **Project type** | **Case study** — published for the research and the reasoning, not a commercial result |
 | **Year** | 2026 |
-| **My role** | Research and design — user research · competitive analysis · personas and journey map · information architecture · user flows · wireframes · UI design · hi-fi prototype · usability testing |
+| **My role** | Research and design — user research · competitive analysis · personas and journey map · information architecture · user flows · wireframes · UI design · hi-fi prototype |
 | **Duration** | 6 weeks |
 | **Tools** | Figma · FigJam · Google Forms · Miro |
 | **Deliverables** | Research report · competitive analysis · personas and journey map · IA · task and user flows · wireframes · hi-fi prototype |
 
 > **The research and the design are mine.** I ran the user research and the competitive
 > analysis, built the personas, the journey map and the information architecture, drew the
-> user flows and the wireframes, designed the UI and the hi-fi prototype, and ran the
-> usability testing — six weeks, from a blank page to a tested prototype.
+> user flows and the wireframes, and designed the UI and the hi-fi prototype, in six weeks
+> from a blank page.
 
 ---
 
@@ -296,18 +296,17 @@ that number goes up and the others follow it.
 
 ## Where the project ended, and what comes next
 
-Six weeks took RunX from a blank page to a tested prototype. It ended there deliberately —
-the scope was research through to a tested interactive design, not launch.
+Six weeks took RunX from a blank page to a hi-fi prototype. It ended there deliberately —
+the scope was research through to interactive design, not launch.
 
 **The next phase, already specified:**
 
 | Step | Method | What it would settle |
 |---|---|---|
 | 1 | Open card sort, 8–10 participants | Whether the six top-level areas match how runners group these concepts — particularly Streak, Badges and Achievements, which could sit under Progress or Community |
-| 2 | Second round of usability testing, after iteration | Movement between rounds, which is worth more than either reading alone |
-| 3 | Four-week diary study, 10 beginners | Whether the bridge week actually changes real adherence, which no prototype test can answer |
+| 2 | Four-week diary study, 10 beginners | Whether the bridge week actually changes real adherence, which no prototype test can answer |
 
-The card sort is written and ready to run. Step 3 is the one that matters most and the one
+The card sort is written and ready to run. Step 2 is the one that matters most and the one
 a six-week concept project cannot reach — adherence is a behaviour over time, and you
 cannot prototype your way to it.
 

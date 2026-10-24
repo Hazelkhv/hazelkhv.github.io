@@ -14,7 +14,8 @@
  *      the shoulders ran off the sides of the original photo.
  */
 
-const sharp = require('c:/Users/Nazanin Khosravi/Desktop/Nexa/site/node_modules/sharp');
+// sharp is not a dependency of the site; install it first: npm install --no-save sharp
+const sharp = require('sharp');
 const fs = require('fs');
 const path = require('path');
 
